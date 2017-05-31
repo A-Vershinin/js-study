@@ -5,12 +5,12 @@
   "main": "gulpfile.js",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "git@github.com:A-Vershinin/js-study.git"
   },
   "bugs": {
-    "url": ""
+    "url": "git@github.com:A-Vershinin/js-study.git"
   },
-  "homepage": "",
+  "homepage": "https://github.com/A-Vershinin/js-study.git",
   "license": "ISC",
   "scripts": {
     "test": "editorconfig-tools check *",
