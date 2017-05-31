@@ -7,9 +7,13 @@
     "node": true,
     "jquery": true,
   },
-  "ecmaFeatures": {
-    "modules": true,
-    "generators": false
+  "parserOptions": {
+      "ecmaVersion": 6,
+      "sourceType": "module",
+      "ecmaFeatures": {
+        "modules": true,
+        "generators": false
+        },
   },
   "rules": {
     "no-debugger": 0,
@@ -21,14 +25,25 @@
     "no-shadow": 0,
     "no-plusplus": ["error", { "allowForLoopAfterthoughts": true }],
     "no-unused-vars": 0,
+    "space-before-function-paren": ["error", {
+        "anonymous": "ignore",
+        "named": "ignore",
+        "asyncArrow": "ignore"
+    }],
     "func-names": 1,
     "quotes": ["error", "double"],
     "indent": 0,
+    "prefer-template": 1,
     "semi": [1, "always"],
     "no-use-before-define": [1, { "functions": false, "classes": true }],
     "prefer-arrow-callback": [1, {
       "allowNamedFunctions": false,
       "allowUnboundThis": false}
     ],
+  },
+  "strict": ["2", "never"],
+  "globals": {
+      "$": true,
+      "jQuery": true,
   }
 }

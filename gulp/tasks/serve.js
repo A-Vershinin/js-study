@@ -1,7 +1,7 @@
-'use strict';
+"use strict";
 
 module.exports = function() {
-  $.gulp.task('serve', function() {
+  $.gulp.task("serve", function() {
     $.browserSync.init({
       browser: "chrome",
       notify: false,
@@ -10,9 +10,9 @@ module.exports = function() {
       ui: false,
       port: 3000,
       // tunnel: true,
-      logPrefix: "front-end"
+      logPrefix: "front-end",
     });
 
-    $.browserSync.watch([$.config.root + '/**/*.*', '!**/*.css'], $.browserSync.reload);
+    $.browserSync.watch([$.config.root + "/**/*.*", "!**/*.css"], $.browserSync.reload);
   });
 };
