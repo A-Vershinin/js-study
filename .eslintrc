@@ -1,0 +1,34 @@
+{
+  # "extends": "airbnb-base"
+  "extends": "airbnb/base",
+  "env": {
+    "es6": true,
+    "browser": true,
+    "node": true,
+    "jquery": true,
+  },
+  "ecmaFeatures": {
+    "modules": true,
+    "generators": false
+  },
+  "rules": {
+    "no-debugger": 0,
+    "no-console": 0,
+    "no-alert": 0,
+    "no-tabs": 0,
+    "no-var": 0,
+    "no-undef": 1,
+    "no-shadow": 0,
+    "no-plusplus": ["error", { "allowForLoopAfterthoughts": true }],
+    "no-unused-vars": 0,
+    "func-names": 1,
+    "quotes": ["error", "double"],
+    "indent": 0,
+    "semi": [1, "always"],
+    "no-use-before-define": [1, { "functions": false, "classes": true }],
+    "prefer-arrow-callback": [1, {
+      "allowNamedFunctions": false,
+      "allowUnboundThis": false}
+    ],
+  }
+}

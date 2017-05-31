@@ -1,0 +1,52 @@
+{
+  "name": "js-study-project",
+  "version": "1.0.0",
+  "author": "Anatoliy Vershinin",
+  "main": "gulpfile.js",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "",
+  "license": "ISC",
+  "scripts": {
+    "test": "editorconfig-tools check *",
+    "build": "gulp dev",
+    "start": "gulp"
+  },
+  "devDependencies": {
+    "browser-sync": "2.11.2",
+    "css-mqpacker": "^5.0.1",
+    "del": "^2.2.2",
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb": "^15.0.1",
+    "eslint-config-airbnb-base": "^11.1.3",
+    "eslint-plugin-import": "^2.2.0",
+    "gulp": "git+https://git@github.com/gulpjs/gulp.git#4.0",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-cheerio": "^0.6.2",
+    "gulp-concat": "2.6.0",
+    "gulp-concat-css": "^2.2.0",
+    "gulp-copy": "0.0.2",
+    "gulp-csscomb": "^3.0.8",
+    "gulp-csso": "^2.0.0",
+    "gulp-eslint": "^3.0.1",
+    "gulp-load-plugins": "1.2.0",
+    "gulp-notify": "2.2.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-postcss": "^6.4.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-replace": "^0.5.4",
+    "gulp-sass": "2.2.0",
+    "gulp-sourcemaps": "^2.6.0",
+    "gulp-uglifyjs": "^0.6.2",
+    "gulp-uncss": "^1.0.6"
+  },
+  "dependencies": {
+    "normalize.css": "^7.0.0",
+    "jquery": "^3.2.0"
+  }
+}
