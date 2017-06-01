@@ -7,6 +7,26 @@ body {
   margin: 0;
   padding: 0;
 }
+
+//бурбон
+//миксин placeholder
+@mixin placeholder {
+  $placeholders: ":-webkit-input" ":-moz" "-moz" "-ms-input";
+  @each $placeholder in $placeholders {
+    &:#{$placeholder}-placeholder {
+      @content;
+    }
+  }
+}
+@include placeholder {
+    color: red;
+}
+//миксин скрытия текста
+@mixin hide-text() {
+  overflow: hidden;
+  text-indent: 101%;
+  white-space: nowrap;
+}
 .container {
   margin: 40px 60px;
 }
