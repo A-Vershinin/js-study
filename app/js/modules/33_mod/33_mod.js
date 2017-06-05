@@ -5,6 +5,7 @@
   // На forEach
   // task1();
   // task2();
+  // task3();
 
   // На map
   // task3();
