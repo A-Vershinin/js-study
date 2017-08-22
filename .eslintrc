@@ -1,19 +1,24 @@
 {
-  # "extends": "airbnb-base"
   "extends": "airbnb/base",
   "env": {
     "es6": true,
     "browser": true,
     "node": true,
-    "jquery": true,
+    "jquery": true
   },
   "parserOptions": {
-      "ecmaVersion": 6,
-      "sourceType": "module",
-      "ecmaFeatures": {
-        "modules": true,
-        "generators": false
-        },
+    "ecmaVersion": 6,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "modules": true,
+      "generators": false,
+      "jsx": true,
+      "objectLiteralDuplicateProperties": false
+    }
+  },
+  "globals": {
+    "$": true,
+    "jQuery": true
   },
   "rules": {
     "no-debugger": 0,
@@ -23,27 +28,28 @@
     "no-var": 0,
     "no-undef": 1,
     "no-shadow": 0,
-    "no-plusplus": ["error", { "allowForLoopAfterthoughts": true }],
+    "no-plusplus": ["error", {
+      "allowForLoopAfterthoughts": true
+    }],
     "no-unused-vars": 0,
     "space-before-function-paren": ["error", {
-        "anonymous": "ignore",
-        "named": "ignore",
-        "asyncArrow": "ignore"
+      "anonymous": "ignore",
+      "named": "ignore",
+      "asyncArrow": "ignore"
     }],
     "func-names": 1,
     "quotes": ["error", "double"],
     "indent": 0,
     "prefer-template": 1,
     "semi": [1, "always"],
-    "no-use-before-define": [1, { "functions": false, "classes": true }],
+    "no-use-before-define": [1, {
+      "functions": false,
+      "classes": true
+    }],
     "prefer-arrow-callback": [1, {
       "allowNamedFunctions": false,
-      "allowUnboundThis": false}
-    ],
+      "allowUnboundThis": false
+    }]
   },
-  "strict": ["2", "never"],
-  "globals": {
-      "$": true,
-      "jQuery": true,
-  }
+  "strict": ["2", "never"]
 }
