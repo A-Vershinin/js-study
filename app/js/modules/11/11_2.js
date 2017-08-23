@@ -6,21 +6,23 @@
    делится - выведите 'false', а если делится - выведите 'true'.
    */
   function checkNumberTask() {
-
-    var number = 31;
-    var i;
-    var flag = false;
-    for (i = 2; i < number; i++) {
-      if (number % i === 0) {
-        flag = true;
-        break;
+    function checkNumber() {
+      var number = 31;
+      var i;
+      var flag = false;
+      for (i = 2; i < number; i++) {
+        if (number % i === 0) {
+          flag = true;
+          break;
+        }
+      }
+      if (flag === true) {
+        console.log(true);
+      } else {
+        console.log(false);
       }
     }
-    if (flag === true) {
-      console.log(true);
-    } else {
-      console.log(false);
-    }
+    // checkNumber();
   }
 
   window.task2 = checkNumberTask;
