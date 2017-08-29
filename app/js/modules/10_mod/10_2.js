@@ -8,7 +8,7 @@
 		return sum1 + sum2;
 	}
 
-	// console.log(getSumma(12, 10));
+	// console.log(getSumma(12_mod, 10));
 
 	window.task2 = getSumma;
 
