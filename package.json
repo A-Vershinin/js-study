@@ -15,6 +15,7 @@
   "scripts": {
     "test": "editorconfig-tools check *",
     "eslint": "eslint --format node_modules/eslint-friendly-formatter app/js",
+    "lint:js": "eslint ./app",
     "build": "gulp dev",
     "start": "gulp"
   },
@@ -23,7 +24,6 @@
     "css-mqpacker": "^5.0.1",
     "del": "^2.2.2",
     "eslint": "^3.19.0",
-    "eslint-config-airbnb": "^15.0.1",
     "eslint-config-airbnb-base": "^11.1.3",
     "eslint-friendly-formatter": "^3.0.0",
     "eslint-plugin-import": "^2.2.0",
@@ -48,7 +48,112 @@
     "gulp-uncss": "^1.0.6"
   },
   "dependencies": {
-  "normalize.css": "^7.0.0",
-  "jquery": "^3.2.0"
+    "babel-core": "^6.26.0",
+    "babel-preset-env": "^1.6.0",
+    "jquery": "^3.2.0",
+    "normalize.css": "^7.0.0"
+  },
+  "eslintConfig": {
+    "root": true,
+    "extends": [
+      "airbnb-base",
+      "prettier"
+    ],
+    "env": {
+      "es6": true,
+      "browser": true,
+      "node": true,
+      "jquery": true
+    },
+    "parserOptions": {
+      "ecmaVersion": 6,
+      "sourceType": "module",
+      "ecmaFeatures": {
+        "modules": true,
+        "generators": false,
+        "jsx": true,
+        "objectLiteralDuplicateProperties": false
+      }
+    },
+    "globals": {
+      "$": true,
+      "jQuery": true
+    },
+    "rules": {
+      "no-debugger": 0,
+      "no-console": 0,
+      "no-alert": 0,
+      "no-tabs": 0,
+      "no-var": 0,
+      "no-empty": 1,
+      "no-undef": 1,
+      "no-shadow": 0,
+      "no-plusplus": [
+        "error",
+        {
+          "allowForLoopAfterthoughts": true
+        }
+      ],
+      "no-unused-vars": 0,
+      "space-before-function-paren": [
+        "error",
+        {
+          "anonymous": "ignore",
+          "named": "ignore",
+          "asyncArrow": "ignore"
+        }
+      ],
+      "func-names": 1,
+      "quotes": [
+        "error",
+        "double"
+      ],
+      "indent": 0,
+      "prefer-template": 1,
+      "semi": [
+        1,
+        "always"
+      ],
+      "padded-blocks": [
+        "error",
+        "never"
+      ],
+      "no-use-before-define": [
+        1,
+        {
+          "functions": false,
+          "classes": true
+        }
+      ],
+      "no-trailing-spaces": [
+        "error",
+        {
+          "skipBlankLines": true
+        }
+      ],
+      "prefer-arrow-callback": [
+        1,
+        {
+          "allowNamedFunctions": false,
+          "allowUnboundThis": false
+        }
+      ]
+    },
+    "strict": [
+      "2",
+      "never"
+    ]
+  },
+  "babel": {
+    "presets": [
+      [
+        "env",
+        {
+          "targets": {
+            "node": "current"
+          }
+        }
+      ]
+    ]
   }
 }

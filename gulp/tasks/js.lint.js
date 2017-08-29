@@ -3,7 +3,7 @@
 module.exports = function() {
 	$.gulp.task("js:lint", function () {
 		return $.gulp.src($.path.app)
-			.pipe($.gp.eslint(".eslintrc"))
+			.pipe($.gp.eslint())
 			.pipe($.gp.eslint.format($.gp.friendlyFormatter))
 			.pipe($.gp.eslint.failAfterError())
 			.on("error", $.gp.notify.onError({
