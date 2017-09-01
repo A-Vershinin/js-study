@@ -1,7 +1,7 @@
 "use strict";
 module.exports = function () {
 	$.gulp.task("js:common", function () {
-		return $.gulp.src($.path.app)
+    return $.gulp.src($.path.app)
 			.pipe($.gp.plumber({
 				errorHandler: $.gp.notify.onError(function (err) {
 					return {

@@ -9,3 +9,15 @@ body {
 .container {
   margin: 40px 60px;
 }
+.block {
+  margin: 20px;
+}
+#area {
+  width: 100px;
+  height: 100px;
+  margin: 20px 0;
+  background-color: #ccc;
+}
+.row {
+  display: flex;
+}

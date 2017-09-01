@@ -13,6 +13,6 @@ module.exports = function() {
       logPrefix: "front-end",
     });
 
-    $.browserSync.watch([$.config.root + "/**/*.*", "!**/*.css"], $.browserSync.reload);
+    $.browserSync.watch([$.config.root + "/**/*.*"], $.browserSync.reload);
   });
 };

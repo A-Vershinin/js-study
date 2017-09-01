@@ -14,7 +14,7 @@
           console.log(i);
         }
       }
-      getNumbers();
+      // getNumbers();
     }
     customFunction();
   }

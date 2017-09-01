@@ -18,7 +18,7 @@
         return false;
       }
 
-      getArr(arr);
+      // getArr(arr);
     }
     customFunction();
   }
