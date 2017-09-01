@@ -18,6 +18,36 @@ body {
   margin: 20px 0;
   background-color: #ccc;
 }
+.link {
+  display: block;
+  width: 110px;
+  padding: 5px 10px;
+  margin: 0 5px 10px 5px;
+  color: #000;
+  text-decoration: none;
+  border: 2px solid black;
+  text-transform: uppercase;
+  box-sizing: border-box;
+
+}
+.link:active {
+  color: red;
+  border-color: red;
+}
 .row {
   display: flex;
+}
+#result-box {
+  display: inline-block;
+  vertical-align: middle;
+  min-width: 24px;
+  height: 24px;
+  border: 2px solid grey;
+  box-sizing: border-box;
+}
+.title {
+  font-weight: 400;
+}
+.text-red {
+  color: red;
 }
