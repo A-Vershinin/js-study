@@ -21,7 +21,7 @@
         console.log(textsBlock);
         btn.addEventListener("click", someHandler);
       }
-      chengeCustom(btn, textsBlock);
+      // chengeCustom(btn, textsBlock);
     }
     customFunction();
   }

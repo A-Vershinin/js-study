@@ -16,7 +16,7 @@
 
         field.addEventListener("keyup", someHandler);
       }
-      chengeCustom(field, span);
+      // chengeCustom(field, span);
     }
     customFunction();
   }
