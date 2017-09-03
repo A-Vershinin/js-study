@@ -51,3 +51,7 @@ body {
 .text-red {
   color: red;
 }
+.clock {
+  margin-top: 20px;
+  font-size: 20px;
+}
