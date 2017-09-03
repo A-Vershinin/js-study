@@ -1,15 +1,24 @@
 (function () {
   /*
-
+  Даны картинки. Привяжите к каждой картинке событие, чтобы по клику на картинку
+  алертом выводился ее src.
   */
   function customFunctionTask() {
     function customFunction() {
-      var btn = document.getElementById("btn2");
+      var arr = document.querySelectorAll(".images-block img");
 
-      function changeCustom() {
+      function changeCustom(arr) {
+        var i;
 
+        for (i = 0; i < arr.length; i++) {
+          arr[i].addEventListener("click", getPath);
+        }
+
+        function getPath() {
+          alert(this.getAttribute("src"));
+        }
       }
-      // changeCustom();
+      changeCustom(arr);
     }
     customFunction();
   }

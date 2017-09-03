@@ -35,7 +35,9 @@ body {
   border-color: red;
 }
 .row {
+  max-width: 300px;
   display: flex;
+  justify-content: space-between;
 }
 #result-box {
   display: inline-block;
@@ -44,6 +46,17 @@ body {
   height: 24px;
   border: 2px solid grey;
   box-sizing: border-box;
+}
+.col-right {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.numbers {
+  margin: 0 10px;
+  padding: 5px;
+  border: 2px solid black;
 }
 .title {
   font-weight: 400;
