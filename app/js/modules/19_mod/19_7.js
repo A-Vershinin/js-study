@@ -7,8 +7,6 @@
       var elem = document.getElementById("btn1");
       var img = document.getElementById("img");
 
-
-
       elem.addEventListener("click", function handler() {
         img.src = "http://loremflickr.com/240/120/dog";
       }, false);
