@@ -14,7 +14,7 @@
           console.log(elem.clientHeight);
         }
       }
-      changeCustom(btn);
+      // changeCustom(btn);
     }
     customFunction();
   }

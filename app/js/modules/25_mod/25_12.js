@@ -15,7 +15,7 @@
           console.log(elem.scrollHeight);
         }
       }
-      changeCustom(btn);
+      // changeCustom(btn);
     }
     customFunction();
   }

@@ -16,7 +16,7 @@
           this.style.height = itemHeight * 2 + "px";
         }
       }
-      changeCustom(btn);
+      // changeCustom(btn);
     }
     customFunction();
   }

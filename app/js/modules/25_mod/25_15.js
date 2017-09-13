@@ -14,7 +14,7 @@
           console.log(window.pageYOffset);
         }
       }
-      changeCustom(btn);
+      // changeCustom(btn);
     }
     customFunction();
   }

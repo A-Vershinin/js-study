@@ -14,7 +14,7 @@
           console.log(elem.clientWidth);
         }
       }
-      changeCustom(btn);
+      // changeCustom(btn);
     }
     customFunction();
   }

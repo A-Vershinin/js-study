@@ -14,7 +14,7 @@
           window.scrollBy(0, 300);
         }
       }
-      changeCustom(btn);
+      // changeCustom(btn);
     }
     customFunction();
   }

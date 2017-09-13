@@ -1,6 +1,6 @@
 (function () {
   /*
-  Дан элемент #elem с границами. По нажатию на кнопку выведите его полную ширину с учетом границы и padding
+  Дана кнопка. По нажатию на эту кнопку узнайте, есть ли у окна браузера вертикальная прокрутка.
   */
   function customFunctionTask3() {
     function customFunction() {
@@ -10,14 +10,16 @@
         btn.addEventListener("click", btnHandler);
 
         function btnHandler() {
-          var elem = document.querySelector("#btn-big");
-          console.log(elem.offsetWidth);
+          if (window.pageYOffset > 0) {
+            console.log(window.pageYOffset);
+          }
         }
       }
       // changeCustom(btn);
     }
     customFunction();
   }
+
   window.task3 = customFunctionTask3;
 }());
 

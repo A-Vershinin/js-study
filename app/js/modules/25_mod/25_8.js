@@ -15,7 +15,7 @@
           alert(elem.scrollTop);
         }
       }
-      changeCustom(btn);
+      // changeCustom(btn);
     }
     customFunction();
   }

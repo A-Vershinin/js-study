@@ -1,6 +1,6 @@
 (function () {
   /*
-  Дан элемент #elem с границами. По нажатию на кнопку выведите толщину его верхней границы.
+  Дана кнопка. По нажатию на эту кнопку выведите высоту окна браузера
   */
   function customFunctionTask() {
     function customFunction() {
@@ -10,8 +10,8 @@
         btn.addEventListener("click", btnHandler);
 
         function btnHandler() {
-          var elem = document.querySelector("#btn-big");
-          console.log(elem.clientTop);
+          var elem = document.documentElement.clientHeight;
+          console.log(elem);
         }
       }
       // changeCustom(btn);

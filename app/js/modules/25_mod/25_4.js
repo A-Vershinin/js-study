@@ -14,7 +14,7 @@
           console.log(elem.offsetHeight);
         }
       }
-      changeCustom(btn);
+      // changeCustom(btn);
     }
     customFunction();
   }

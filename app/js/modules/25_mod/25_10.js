@@ -15,7 +15,7 @@
           elem.scrollTop = 100;
         }
       }
-      changeCustom(btn);
+      // changeCustom(btn);
     }
     customFunction();
   }

@@ -13,7 +13,7 @@
           window.scrollBy(0, 400);
         }
       }
-      changeCustom(btn);
+      // changeCustom(btn);
     }
     customFunction();
   }

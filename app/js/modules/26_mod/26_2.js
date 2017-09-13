@@ -1,6 +1,6 @@
 (function () {
   /*
-  Дан элемент #elem с границами. По нажатию на кнопку выведите толщину его левой границы
+  Дана кнопка. По нажатию на эту кнопку прокрутите окно браузера до самого низа
   */
   function customFunctionTask2() {
     function customFunction() {
@@ -10,8 +10,9 @@
         btn.addEventListener("click", btnHandler);
 
         function btnHandler() {
-          var elem = document.querySelector("#btn-big");
-          console.log(elem.clientLeft);
+          var elem = window.innerHeight;
+          window.scrollBy(0, elem);
+          console.log(elem);
         }
       }
       // changeCustom(btn);

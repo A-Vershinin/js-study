@@ -16,7 +16,7 @@
           elem.scrollTop = targetHeight;
         }
       }
-      changeCustom(btn);
+      // changeCustom(btn);
     }
     customFunction();
   }

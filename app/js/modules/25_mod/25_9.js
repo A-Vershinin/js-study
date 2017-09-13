@@ -15,7 +15,7 @@
           alert(elem.scrollLeft);
         }
       }
-      changeCustom(btn);
+      // changeCustom(btn);
     }
     customFunction();
   }
