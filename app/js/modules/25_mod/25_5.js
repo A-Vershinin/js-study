@@ -1,8 +1,8 @@
 (function () {
   /*
-  Дан элемент #elem с границами. По нажатию на кнопку выведите толщину его верхней границы.
+  Дан элемент #elem с границами. По нажатию на кнопку выведите его полную ширину без учета границы, но с padding
   */
-  function customFunctionTask() {
+  function customFunctionTask5() {
     function customFunction() {
       var btn = document.querySelector("#link");
 
@@ -11,14 +11,13 @@
 
         function btnHandler() {
           var elem = document.querySelector("#btn-big");
-          console.log(elem.clientTop);
+          console.log(elem.clientWidth);
         }
       }
       changeCustom(btn);
     }
     customFunction();
   }
-
-  window.task1 = customFunctionTask;
+  window.task5 = customFunctionTask5;
 }());
 

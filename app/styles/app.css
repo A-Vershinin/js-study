@@ -68,3 +68,7 @@ body {
   margin-top: 20px;
   font-size: 20px;
 }
+.list {
+  max-height: 100px;
+  overflow-y: scroll;
+}
