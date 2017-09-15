@@ -90,3 +90,18 @@ body {
   left: 0;
   z-index:30;
 }
+#table {
+  width: 150px;
+  border: 2px solid grey;
+}
+.table-row {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #ccc;
+  box-sizing: border-box;
+}
+.table-row td {
+  width: 50%;
+  text-align: center;
+}
+
