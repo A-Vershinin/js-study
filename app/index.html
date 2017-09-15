@@ -19,17 +19,25 @@
       <button type="button" id="btn-list">Кнопка</button>
     </ul>
     <div class="block">
-      <input type="button" class="btn" id="btn1" value="Кнопка">
-      <input type="text" name="text" id="field" value="Первый" data-length="5">
-      <input type="submit" name="text" id="btn2" value="Нажми на меня">
-      <input type="text" name="text" id="field2" value="Второй" data-length="7">
-      <span id="result-box"></span>
+      <select name="select-name" id="select">
+        <option value="1">Текст1</option>
+        <option value="2">Текст2</option>
+        <option value="3">Текст3</option>
+      </select>
+      <input type="text" name="select" id="select-input-id">
     </div>
+    <form class="form block">
+      <input type="button" class="btn" id="btn1" value="Кнопка">
+      <input type="text" name="text" id="field" value="15" data-length="5">
+      <input type="submit" name="text" id="btn2" value="Нажми на меня">
+      <input type="text" name="text" id="field2" value="45" data-length="7">
+      <span id="result-box"></span>
+    </form>
     <div class="row">
       <div class="block">
         <div id="area"></div>
       </div>
-      <div class="block">
+      <div class="block ">
         <img src="img/member1.jpg" alt="Картинка" id="img" width="100">
       </div>
     </div>
@@ -80,15 +88,16 @@
           <td>2</td>
         </tr>
       </table>
-      <form action="#" id="form">
+      <form action="#" id="form" class="form">
         <div class="form-wrap">
           <label for="first-name-field"></label>
-          <input type="text" name="first-name" id="first-name-field">
+          <input type="text" name="first-name" id="first-name-field" value="20">
         </div>
         <div class="form-wrap">
           <label for="second-name-filed"></label>
-          <input type="text" name="second-name" id="second-name-filed">
+          <input type="text" name="second-name" id="second-name-filed" value="17">
         </div>
+        <button id="form-btn">Отправить</button>
       </form>
     </div>
 	</div>
