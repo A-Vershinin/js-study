@@ -28,8 +28,8 @@
         }
         return arrSum;
       }
-      getYears();
-      console.log(arrSum);
+      // getYears();
+      // console.log(arrSum);
     }
     customFunction();
   }

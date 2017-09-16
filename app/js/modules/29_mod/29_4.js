@@ -8,7 +8,6 @@
       var selectItem = document.querySelector("#select");
 
       function changeCustom(selectItem) {
-        var arr = [];
         var temp = 0;
         var btn = document.querySelector("#btn1");
         var input = document.querySelector("#select-input-id");
@@ -16,15 +15,14 @@
         btn.addEventListener("click", btnHandler);
         input.addEventListener("keypress", inputHandler);
 
-        function btnHandler(evt) {
+        function btnHandler() {
           var i;
           var options = selectItem.options;
+          console.log(temp);
           for (i = 0; i < options.length; i++) {
-            if (options[i].index === temp) {
+            if (options[i].index == temp - 1) {
               options[i].selected = true;
             }
-            console.log(options[i]);
-            console.log(temp);
           }
         }
 
