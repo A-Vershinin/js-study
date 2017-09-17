@@ -9,18 +9,17 @@
       var input = document.querySelector("#field");
 
       function changeCustom(input) {
-        input.addEventListener("blur", inputHandler);
-        input.addEventListener("focus", inputHandler2);
+        input.addEventListener("blur", inputHandler2);
 
         function inputHandler2() {
-          // this.value = inputHandler(this.value);
+          this.value = inputHandler(this.value);
         }
 
         function inputHandler(str) {
           var i;
           var arr;
-
-          if (str.str.target.value !== 0) {
+          console.log(str);
+          if (str.length !== 0) {
             arr = str.split(" ");
             for (i = 0; i < arr.length; i++) {
               arr[i] = arr[i].split("");
@@ -28,7 +27,6 @@
               arr[i] = arr[i].join("");
             }
             str = arr.join(" ");
-            console.log(str);
           }
           return str;
         }
