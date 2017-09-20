@@ -3,22 +3,22 @@
 	Дан массив с числами. Найдите сумму этих чисел.
 	*/
 
-  function customFunctionTask3() {
+  function customFunctionTask11() {
     function customFunction() {
-      var arr = [10, 14, 16, 8];
+      var arr = [10, 14, -30, 16, -8, 15, -5];
 
       function changeCustom(arr) {
-        var newArr;
+        var result;
 
-        newArr = arr.map(function(num) {
-          return num * num;
+        result = arr.reduce(function(elem, index) {
+          return elem + index;
         });
-        console.log(newArr);
 
+        console.log(result);
       }
       changeCustom(arr);
     }
     customFunction();
   }
-  window.task3 = customFunctionTask3;
+  window.task11 = customFunctionTask11;
 }());
