@@ -181,7 +181,9 @@ body {
 .list-wrapper,
 .autocomplit__list,
 .tabs__content,
-.tabs__btns {
+.tabs__btns,
+.acco__list,
+.acco__inner {
   padding: 0;
   margin: 0;
   list-style: none;
@@ -291,5 +293,42 @@ body {
 }
 .tabs__content-item.active {
   display: block;
+}
+.accordion {
+  width: 400px;
+  display: none;
+}
+.acco__list {
+  padding: 10px;
+  border: 1px solid #999;
+}
+.acco__item {
+  margin-bottom: 10px;
+}
+.acco__item:last-child {
+  margin-bottom: 0;
+}
+.acco__trigger {
+  display: block;
+  padding: 5px 10px;
+  color: #000;
+  background-color: #c0c0c0;
+  border: 1px solid #3c4751;
+  border-radius: 2px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: 0.25s liner;
+  cursor: pointer;
+}
+.acco__trigger:active {
+  color: #fff;
+  background-color: cadetblue;
+}
+.acco__inner {
+  margin: 5px;
+  overflow: hidden;
+  box-sizing: border-box;
+  transition: height 0.3s;
 }
 
