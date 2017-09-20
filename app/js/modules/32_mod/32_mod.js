@@ -1,7 +1,6 @@
-;(function() {
+;(function () {
 
   // Описание всех тасков внутри
-
   // На работу с функциями
   // task1();
   // task2();
@@ -9,7 +8,6 @@
   // task4();
   // task5();
   // task6();
-
   // На замыкания
   // task7();
   // task8();
@@ -19,8 +17,8 @@
   // task14();
   // task15();
   // task16();
-
 }());
+
 function test() {
   var btn = document.querySelector("#btn");
   var ccc = "Hello";
@@ -28,15 +26,16 @@ function test() {
     alert(this.value + ccc);
   });
 }
-// test();
 
+// test();
 function test2() {
   var btn = document.querySelector("#btn");
   var ccc = "Hello";
   btn.addEventListener("click", func1);
 }
+
 function func1() {
   var ccc;
   alert(this.value + ccc);
 }
-// test2();
+

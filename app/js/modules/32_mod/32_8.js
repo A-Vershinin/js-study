@@ -6,11 +6,28 @@
 	кнопки должно хранится в замыкании.
 	*/
 
-  function showA() {
-    // function counter() {
-    //   var buttons = document.getElementsByTagName("button");
-    //   for (var i = 0; i < )
-    // }
-  };
-  window.task8 = showA;
+  function customFunctionTask8() {
+    function customFunction() {
+      var buttons = document.getElementsByClassName("link");
+
+      function changeCustom(buttons) {
+        var i;
+
+        var btnHandler = function() {
+          var k = 1;
+          return function() {
+            this.innerHTML = k;
+            return k += 1;
+          };
+        };
+
+        for (i = 0; i < buttons.length; i++) {
+          buttons[i].addEventListener("click", btnHandler);
+        }
+      }
+      changeCustom(buttons);
+    }
+    customFunction();
+  }
+  window.task8 = customFunctionTask8;
 }());
