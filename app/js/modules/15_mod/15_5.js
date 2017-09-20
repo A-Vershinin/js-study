@@ -31,7 +31,7 @@
       // getYears();
       // console.log(arrSum);
     }
-    customFunction();
+    // customFunction();
   }
 
   window.task5 = customFunctionTask5;

@@ -198,6 +198,10 @@ body {
 }
 .autocomplit__item {
   font-size: 16px;
+  cursor: pointer;
+}
+.autocomplit__item:hover {
+  background-color: #dedede;
 }
 .list__close {
   position: absolute;

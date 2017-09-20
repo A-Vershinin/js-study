@@ -31,7 +31,7 @@
         list.addEventListener("click", selectWord);
 
         function inputHandler(evt) {
-          var item;
+          var i;
           var words;
           var value;
           var newArr;
@@ -48,7 +48,6 @@
               list.appendChild(newArr[i]);
             }
             list.style.display = "block";
-            // positionList();
           } else {
             list.style.display = "none";
           }
@@ -71,16 +70,8 @@
             item.classList.add("autocomplit__item");
             item.innerHTML = words[i];
             arr.push(item);
-            // list.appendChild(item);
           }
-          console.log(arr);
           return arr;
-
-          // var html = "";
-          // for (var i = 0; i < words.length; i++) {
-          //   html += '<div>' + words[i] + '</div>'
-          // }
-          // return html;
         }
         container.insertBefore(autocomplit, nextElem);
       }
