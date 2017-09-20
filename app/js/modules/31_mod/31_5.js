@@ -62,7 +62,6 @@
             elem.style.height = elem.scrollHeight + "px";
           }
         }
-
         container.insertBefore(accordion, nextElem);
       }
       changeCustom(container);

@@ -33,20 +33,20 @@
         function inputHandler(evt) {
           var item;
           var words;
+          var value;
+          var newArr;
 
-          var value = input.value.trim().toLowerCase();
+          value = input.value.trim().toLowerCase();
           if (value) {
             words = countries.filter(function(item) {
               return item.toLowerCase().indexOf(value) === 0;
             });
 
-            var someText = getComliteHtml(words);
-            console.log(someText);
-            // for (var i = 0; i < someText.length; i++) {
-            //   var temp = someText[i];
-            //   list.appendChild(temp);
-            // }
-            list.innerHTML = getComliteHtml(words);
+            list.innerHTML = "";
+            newArr = getComliteHtml(words);
+            for (i = 0; i < newArr.length; i++) {
+              list.appendChild(newArr[i]);
+            }
             list.style.display = "block";
             // positionList();
           } else {
@@ -63,23 +63,24 @@
         }
 
         function getComliteHtml(words) {
-          // var i;
-          // var arr = [];
-          // var item;
-          // for (i = 0; i < words.length; i++) {
-          //   item = document.createElement("li");
-          //   item.classList.add("autocomplit__item");
-          //   item.innerHTML = words[i];
-          //   arr.push(item);
-          // }
-          // console.log(arr);
-          // return arr;
-
-          var html = "";
-          for (var i = 0; i < words.length; i++) {
-            html += '<div>' + words[i] + '</div>'
+          var i;
+          var arr = [];
+          var item;
+          for (i = 0; i < words.length; i++) {
+            item = document.createElement("li");
+            item.classList.add("autocomplit__item");
+            item.innerHTML = words[i];
+            arr.push(item);
+            // list.appendChild(item);
           }
-          return html;
+          console.log(arr);
+          return arr;
+
+          // var html = "";
+          // for (var i = 0; i < words.length; i++) {
+          //   html += '<div>' + words[i] + '</div>'
+          // }
+          // return html;
         }
         container.insertBefore(autocomplit, nextElem);
       }
