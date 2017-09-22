@@ -14,13 +14,13 @@
 
         result = arr.reduce(function(sum, elem) {
           if (sum > 10) {
-            result =   elem;
+            result = elem;
           } else {
             data += 1;
             return sum + elem;
           }
         });
-        console.log(result);
+        console.log(data);
       }
       changeCustom(arr);
     }
