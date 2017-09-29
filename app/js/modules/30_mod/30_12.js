@@ -12,7 +12,7 @@
 
         function btnHandler() {
           for (i = 0; i < text.length; i++) {
-            text[i].innerHTML += i+1;
+            text[i].innerHTML += i + 1;
           }
         }
       }

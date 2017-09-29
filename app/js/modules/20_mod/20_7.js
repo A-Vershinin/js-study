@@ -15,7 +15,7 @@
         function someHandler() {
           var i;
           for (i = 0; i <= textsBlock.length; i++) {
-            textsBlock[i].innerHTML = i+1;
+            textsBlock[i].innerHTML = i + 1;
           }
         }
         console.log(textsBlock);

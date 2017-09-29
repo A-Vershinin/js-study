@@ -14,10 +14,10 @@
         function someHandlerDeleteClass() {
           var message = textBlock.getAttribute("class");
           alert(message);
-        };
+        }
         function someHandlerDeleteAtr() {
           textBlock.removeAttribute("class");
-        };
+        }
 
         console.log(textBlock);
         btn.addEventListener("click", someHandlerDeleteClass);

@@ -1,6 +1,5 @@
 
-;(function() {
-
+(function() {
 	/*
 	 Сделайте функцию, которая возвращает сумму двух чисел
 	 */
@@ -11,5 +10,4 @@
 	// console.log(getSumma(12_mod, 10));
 
 	window.task2 = getSumma;
-
 }());

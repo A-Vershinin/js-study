@@ -12,7 +12,7 @@
         function btnHandler() {
           var elem = document.querySelector("#btn-big");
           var style = getComputedStyle(elem);
-          alert(style.width + " " + style.height);
+          alert(`${style.width} ${style.height}`);
         }
       }
       // changeCustom(btn);

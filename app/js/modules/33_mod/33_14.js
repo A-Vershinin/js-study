@@ -12,7 +12,7 @@
         var result = 0;
         var data = 0;
 
-        result = arr.reduce(function(sum, elem) {
+        result = arr.reduce((sum, elem) => {
           if (sum > 10) {
             result = elem;
           } else {

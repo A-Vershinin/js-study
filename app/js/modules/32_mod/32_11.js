@@ -17,7 +17,7 @@
           arr.push(this.value);
           console.log(arr);
         };
-      })();
+      }());
     }
   }
 

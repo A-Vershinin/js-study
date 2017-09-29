@@ -16,14 +16,13 @@
           var sum = 0;
           var str = this.value;
           if (str.length !== 0) {
-
             arr = str.split(" ");
             console.log(arr);
             for (i = 0; i < arr.length; i++) {
               sum++;
             }
           }
-          alert("Кол-во слов в инпуте: " + sum);
+          alert(`Кол-во слов в инпуте: ${sum}`);
         }
       }
       changeCustom(input);

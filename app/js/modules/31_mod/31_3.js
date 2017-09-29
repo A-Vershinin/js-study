@@ -37,9 +37,7 @@
 
           value = input.value.trim().toLowerCase();
           if (value) {
-            words = countries.filter(function(item) {
-              return item.toLowerCase().indexOf(value) === 0;
-            });
+            words = countries.filter(item => item.toLowerCase().indexOf(value) === 0);
 
             list.innerHTML = "";
             newArr = getComliteHtml(words);

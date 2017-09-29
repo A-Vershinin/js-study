@@ -20,11 +20,9 @@
             arr[i] = children[i].innerHTML;
           }
 
-          arr.sort(function(a, b){
-            return a - b;
-          });
+          arr.sort((a, b) => a - b);
 
-          for (i = 0; i < children.length; i++){
+          for (i = 0; i < children.length; i++) {
             children[i].innerHTML = arr[i];
           }
         }

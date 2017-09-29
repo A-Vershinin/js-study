@@ -12,7 +12,7 @@
         area.addEventListener("mousemove", areaHandler);
 
         function areaHandler(evt) {
-          var info = "X: " + evt.clientX + "Y: " + evt.clientY;
+          var info = `X: ${evt.clientX}Y: ${evt.clientY}`;
           this.innerHTML = info;
         }
       }

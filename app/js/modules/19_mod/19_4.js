@@ -7,7 +7,7 @@
     function customFunction() {
       var elem = document.getElementById("area");
 
-      elem.addEventListener("mouseout", function handler() {
+      elem.addEventListener("mouseout", () => {
         alert("Привет");
       }, false);
     }

@@ -7,7 +7,7 @@
     function customFunction() {
       var elem = document.getElementById("btn1");
 
-      elem.addEventListener("mouseover", function handler() {
+      elem.addEventListener("mouseover", () => {
         alert("Привет");
       }, false);
     }

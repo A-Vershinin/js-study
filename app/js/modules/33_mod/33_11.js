@@ -10,9 +10,7 @@
       function changeCustom(arr) {
         var result;
 
-        result = arr.reduce(function(elem, index) {
-          return elem + index;
-        });
+        result = arr.reduce((elem, index) => elem + index);
 
         console.log(result);
       }

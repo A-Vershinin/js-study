@@ -16,7 +16,6 @@
         function endHandler(elem) {
           this.src = img2;
           console.log("2");
-
         }
 
         elem.addEventListener("mouseover", doHandler);

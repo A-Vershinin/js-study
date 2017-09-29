@@ -12,7 +12,7 @@
         function someHandler() {
           var i;
           for (i = 0; i <= links.length; i++) {
-            links[i].innerHTML = links[i].innerHTML + " ("+links[i].getAttribute("href")+")";
+            links[i].innerHTML = `${links[i].innerHTML} (${links[i].getAttribute("href")})`;
           }
         }
 

@@ -4,10 +4,8 @@
    Если отрицательное - пусть функция вернет true, а если нет - false.
    */
   function hasNumberTask() {
-
     function hasNumber(number) {
       return console.log(number >= 0);
-
     }
     hasNumber(5);
   }

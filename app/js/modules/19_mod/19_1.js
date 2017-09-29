@@ -6,7 +6,7 @@
     function customFunction() {
       var elem = document.getElementById("btn1");
 
-      elem.addEventListener("click", function () {
+      elem.addEventListener("click", () => {
         alert("Привет");
       }, false);
     }

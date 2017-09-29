@@ -10,19 +10,19 @@
         var date;
         var clock;
 
-        function go(){
+        function go() {
           window.timerId = window.setInterval(timer, 500);
         }
 
         function timer() {
           clock = document.querySelector(".clock-timer");
           date = new Date();
-          clock.innerHTML = addZero(date.getHours())+ ":" + addZero(date.getMinutes()) + ":" + addZero(date.getSeconds());
+          clock.innerHTML = `${addZero(date.getHours())}:${addZero(date.getMinutes())}:${addZero(date.getSeconds())}`;
         }
 
-        function addZero(num){
-          if(num <= 9) return "0" + num;
-          else return num;
+        function addZero(num) {
+          if (num <= 9) return `0${num}`;
+          return num;
         }
         function startTime() {
           go();

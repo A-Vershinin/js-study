@@ -11,13 +11,9 @@
       function changeCustom(arr) {
         var result;
 
-        var newArr = arr.filter(function(elem) {
-          return elem > 0;
-        });
+        var newArr = arr.filter(elem => elem > 0);
 
-        result = newArr.map(function(elem) {
-          return Math.sqrt(elem);
-        });
+        result = newArr.map(elem => Math.sqrt(elem));
 
         console.log(result);
       }

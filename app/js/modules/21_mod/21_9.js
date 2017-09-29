@@ -14,7 +14,7 @@
       date = new Date();
       now = date.getTime();
       result = now - time;
-      result = result / (1000 * 60 * 60);
+      result /= (1000 * 60 * 60);
 
       console.log(result);
     }

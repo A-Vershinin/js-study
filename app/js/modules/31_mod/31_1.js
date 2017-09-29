@@ -27,16 +27,14 @@
             input.value = str;
           } else if (evt.target.classList.contains("calculate__reset")) {
             input.value = str;
-          } else {
-            if (evt.target.classList.contains("calculate__btn")) {
+          } else if (evt.target.classList.contains("calculate__btn")) {
               input.value += evt.target.textContent;
             }
-          }
           if (evt.target.classList.contains("calculate__reset")) {
             input.value = "";
           }
         }
-        container.insertBefore (calculate, nextElem);
+        container.insertBefore(calculate, nextElem);
       }
       changeCustom(container);
     }

@@ -12,7 +12,7 @@
         function someHandler() {
           var i;
           for (i = 0; i <= elems.length; i++) {
-            elems[i].innerHTML = i+1;
+            elems[i].innerHTML = i + 1;
           }
         }
 

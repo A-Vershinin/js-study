@@ -10,7 +10,7 @@
       function changeSome(elem) {
         this.addEventListener("click", function() {
           this.value = newValue;
-        } , false);
+        }, false);
       }
       changeSome(field);
     }

@@ -17,7 +17,7 @@
         }
         function timer() {
           var elem = document.getElementById("timer-filed");
-          elem.value = parseInt(elem.value)+1;
+          elem.value = parseInt(elem.value) + 1;
         }
 
         btn1.addEventListener("click", startTimer);

@@ -7,7 +7,7 @@
       var i;
       var str = "";
       for (i = 1; i <= 10; i++) {
-        str += "-" + i;
+        str += `-${i}`;
       }
       str += "-";
       console.log(str);

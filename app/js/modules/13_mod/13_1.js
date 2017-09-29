@@ -11,7 +11,7 @@
       for (i = 1; i <= 9; i++) {
         document.write("<div style='float: left; width: 70px;'>");
         for (j = 1; j <= 9; j++) {
-          document.write(i + "*" + j + "=" + (i * j) + "<br>");
+          document.write(`${i}*${j}=${i * j}<br>`);
         }
         document.write("</div>");
       }

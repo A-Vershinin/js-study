@@ -12,10 +12,10 @@
       function someFunction(btn1, btn2, field) {
         function handler1() {
           field.style.display = "none";
-        };
+        }
         function handler2() {
           field.style.display = "block";
-        };
+        }
         btn1.addEventListener("click", handler1);
         btn2.addEventListener("click", handler2);
       }

@@ -15,7 +15,7 @@
           var str = "";
           var symbols = "0123456789qwertyuiopasdfghjklzxcvbnm";
 
-          for (i = 0; i < 8; i++){
+          for (i = 0; i < 8; i++) {
             str += symbols.charAt(Math.floor(Math.random() * symbols.length));
             input.value = str;
           }

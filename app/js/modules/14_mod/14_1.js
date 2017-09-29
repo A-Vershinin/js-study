@@ -8,7 +8,7 @@
       var i;
       var str = "";
 
-      for (i = 1; i <= 10; i++){
+      for (i = 1; i <= 10; i++) {
         str += "x";
         arr.push(str);
       }

@@ -11,9 +11,7 @@
       function changeCustom(arr) {
         var newArr;
 
-        newArr = arr.filter(function(elem) {
-          return Array.isArray(elem);
-        });
+        newArr = arr.filter(elem => Array.isArray(elem));
 
         console.log(newArr);
       }

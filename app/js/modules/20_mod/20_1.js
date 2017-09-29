@@ -10,7 +10,6 @@
       var text = document.getElementById("title");
 
       function chengeCustom(btn, text) {
-
         function someHandler() {
           text.innerHTML = "А я <b>жирный</b> троль";
         }

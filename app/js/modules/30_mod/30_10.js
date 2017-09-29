@@ -19,7 +19,7 @@
             arr = str.split("");
             arr2 = str.split("").reverse();
             for (i = 0; i < arr.length; i++) {
-              if(arr[i]!== arr2[i]) {
+              if (arr[i] !== arr2[i]) {
                 alert("Это слово не палиндром");
                 return;
               }

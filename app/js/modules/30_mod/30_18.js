@@ -20,7 +20,7 @@
           var str = input.value;
 
           arr = str.split(",");
-          for (i = 0; i < arr.length; i++){
+          for (i = 0; i < arr.length; i++) {
             item = document.createElement("li");
             item.textContent = arr[i];
             list.appendChild(item);

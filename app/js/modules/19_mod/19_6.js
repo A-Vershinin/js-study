@@ -8,7 +8,7 @@
       var field = document.getElementById("field");
 
 
-      elem.addEventListener("click", function handler() {
+      elem.addEventListener("click", () => {
         field.value = "текст другой";
       }, false);
     }

@@ -10,9 +10,7 @@
       function changeCustom(arr) {
         var newArr;
 
-        newArr = arr.filter(function(num) {
-          return num % 2 === 0;
-        });
+        newArr = arr.filter(num => num % 2 === 0);
 
         console.log(newArr);
       }

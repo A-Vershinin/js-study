@@ -11,7 +11,7 @@
     function getPiramide() {
       var i;
       var j;
-      var str ="";
+      var str = "";
 
       for (i = 1; i <= 5; i++) {
         str += "xx";

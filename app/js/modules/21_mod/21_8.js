@@ -11,7 +11,7 @@
 
       function showTime(data) {
         minute = Math.floor(data.getTime() / (1000 * 60));
-        return  minute;
+        return minute;
       }
       // console.log(showTime(data));
       // showTime(data);

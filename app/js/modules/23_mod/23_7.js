@@ -26,5 +26,3 @@
   window.task7 = customFunctionTask7;
 }());
 
-
-

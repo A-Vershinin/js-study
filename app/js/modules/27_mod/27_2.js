@@ -13,8 +13,8 @@
 
         function areaHandler(evt) {
           var elem = document.querySelector(".figure");
-          elem.style.top = evt.clientY + "px";
-          elem.style.left = evt.clientX + "px";
+          elem.style.top = `${evt.clientY}px`;
+          elem.style.left = `${evt.clientX}px`;
           console.log(evt.clientX, evt.clientY);
         }
       }

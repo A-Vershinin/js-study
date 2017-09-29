@@ -26,7 +26,7 @@
               }
             }
           }
-          console.log("Сумму чисел из всех инпутов: " + result);
+          console.log(`Сумму чисел из всех инпутов: ${result}`);
         }
       }
       changeCustom(forms);

@@ -9,9 +9,7 @@
       function changeCustom(arr) {
         var newArr;
 
-        newArr = arr.map(function(num) {
-          return num * num;
-        });
+        newArr = arr.map(num => num * num);
         console.log(newArr);
       }
       changeCustom(arr);

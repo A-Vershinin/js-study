@@ -7,7 +7,6 @@
       var arr = [1, 2, 3, 4, 5, 6, 7, 8];
 
       function getNumbers(arr) {
-
         console.log(arr[0]);
         arr.splice(0, 1);
         if (arr.length !== 0) {

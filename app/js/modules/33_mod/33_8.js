@@ -10,9 +10,7 @@
       function changeCustom(arr) {
         var newArr;
 
-        newArr = arr.filter(function(num) {
-          return num.length > 5;
-        });
+        newArr = arr.filter(num => num.length > 5);
 
         console.log(newArr);
       }

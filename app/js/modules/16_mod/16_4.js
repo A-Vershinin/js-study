@@ -13,13 +13,13 @@
         var newArr = [];
         var newStr = "";
 
-        arr  = str.split("");
+        arr = str.split("");
 
         for (i = 0; i <= arr.length; i++) {
-          if (i%2 === 0) {
-            newArr[i] = arr[i+1];
+          if (i % 2 === 0) {
+            newArr[i] = arr[i + 1];
           } else {
-            newArr[i] = arr[i-1];
+            newArr[i] = arr[i - 1];
           }
         }
         newStr = newArr.join("");

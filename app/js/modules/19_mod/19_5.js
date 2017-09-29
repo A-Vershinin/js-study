@@ -9,7 +9,7 @@
       var field = document.getElementById("field");
 
 
-      elem.addEventListener("click", function handler() {
+      elem.addEventListener("click", () => {
         alert(field.value);
       }, false);
     }

@@ -14,7 +14,7 @@
           var child = document.querySelector("#elem");
           var parent = child.parentElement;
           parent.removeChild(child);
-        };
+        }
       }
       changeCustom(parent);
     }

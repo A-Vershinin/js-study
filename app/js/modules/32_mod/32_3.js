@@ -9,15 +9,11 @@
   function showC() {
     function ggg(func1, func2) {
       return func1() + func2();
-    };
+    }
     console.log(ggg(
-      function () {
-        return 3;
-      },
-      function () {
-        return 4;
-      }
+      () => 3,
+      () => 4,
     ));
-  };
+  }
   export default showC;
 

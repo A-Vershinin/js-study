@@ -10,10 +10,10 @@
       var i;
       for (i = 0; i < arr.length; i++) {
         if (arr[i] === 5) {
-          return console.log("да")
+          return console.log("да");
         }
       }
-      return console.log("нет")
+      return console.log("нет");
     }
     hasNumber(arr);
   }

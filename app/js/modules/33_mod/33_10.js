@@ -10,9 +10,7 @@
       function changeCustom(arr) {
         var newArr;
 
-        newArr = arr.filter(function(elem) {
-          return elem < 0;
-        });
+        newArr = arr.filter(elem => elem < 0);
 
         console.log(newArr.length);
       }

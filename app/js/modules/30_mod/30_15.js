@@ -14,7 +14,7 @@
           var number = this.value;
 
           if (Number(number)) {
-            if (number >= 0 && number <= 100){
+            if (number >= 0 && number <= 100) {
               this.style.color = "green";
             } else {
               this.style.color = "red";

@@ -17,7 +17,7 @@
           var arr = str.split(",");
 
           for (i = 0; i < arr.length; i++) {
-            total += (Number(arr[i])/i);
+            total += (Number(arr[i]) / i);
           }
           console.log(total);
         }

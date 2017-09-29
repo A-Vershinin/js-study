@@ -14,11 +14,11 @@
         function someHandlerDeleteClass() {
           var message = textBlock.getAttribute("class");
           alert(message);
-        };
+        }
         function someHandlerDeleteAtr() {
           textBlock.setAttribute("class", "new-class");
           alert("Класс изменен! Нажмите на первую кнопку чтобы проверить это!");
-        };
+        }
 
         console.log(textBlock);
         btn.addEventListener("click", someHandlerDeleteClass);

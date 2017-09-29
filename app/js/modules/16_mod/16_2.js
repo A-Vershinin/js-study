@@ -19,7 +19,7 @@
         var newArr = [];
 
         for (i = 0; i <= arr.length - 1; i++) {
-          if ( i === 0) {
+          if (i === 0) {
             newArr.push(arr[i]);
           } else {
             newArr.push(ucfirst(arr[i]));

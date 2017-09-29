@@ -8,9 +8,7 @@
       var arr = [10, 14, 16, 8];
 
       function changeCustom(arr) {
-        arr.every(function(num) {
-          return console.log(num > 0);
-        });
+        arr.every(num => console.log(num > 0));
       }
       changeCustom(arr);
     }

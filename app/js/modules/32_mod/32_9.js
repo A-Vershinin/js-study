@@ -21,7 +21,7 @@
           this.style.color = arr[count];
           count += 1;
         };
-      })();
+      }());
     }
   }
 

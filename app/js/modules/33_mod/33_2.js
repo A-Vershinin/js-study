@@ -10,7 +10,7 @@
       function changeCustom(arr) {
         var sum = 0;
 
-        arr.forEach(function(num) {
+        arr.forEach((num) => {
           sum += num;
           return sum;
         });

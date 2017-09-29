@@ -8,9 +8,9 @@
       var field = document.getElementById("field");
 
       function handler(elem) {
-        this.addEventListener("focus", function() {
+        this.addEventListener("focus", () => {
           alert(elem.value);
-        } , false);
+        }, false);
       }
       // handler(field);
     }

@@ -11,16 +11,15 @@
 
       date = new Date();
 
-      function getNumber(number){
+      function getNumber(number) {
         if (number >= 0 && number <= 10) {
-          return "0" + number;
-        } else {
-          return number;
+          return `0${number}`;
         }
+          return number;
       }
 
-      console.log(date.getHours() + ":" + date.getMinutes() + ":" + date.getSeconds() + " " + date.getDay() + "." + date.getDate() + "." + date.getFullYear());
-      console.log(getNumber(date.getDate() + "." + getNumber(date.getMonth() + 1) + "." + date.getFullYear()));
+      console.log(`${date.getHours()}:${date.getMinutes()}:${date.getSeconds()} ${date.getDay()}.${date.getDate()}.${date.getFullYear()}`);
+      console.log(getNumber(`${date.getDate()}.${getNumber(date.getMonth() + 1)}.${date.getFullYear()}`));
     }
     customFunction();
   }

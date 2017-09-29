@@ -16,7 +16,7 @@
 
         function inputHandler(evt) {
           if (evt.keyCode === 13) {
-            item.innerHTML += this.value + ",";
+            item.innerHTML += `${this.value},`;
           }
         }
       }

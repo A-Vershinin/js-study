@@ -10,7 +10,7 @@
         var elem = document.querySelector("#timer-filed");
         elem.value = 10;
 
-        function go(){
+        function go() {
           btn.setAttribute("disabled", true);
           window.timerId = window.setInterval(timer, 300);
         }
@@ -19,9 +19,9 @@
         }
 
         function timer() {
-          var number =  parseInt(elem.value)-1;
+          var number = parseInt(elem.value) - 1;
           elem.value = number;
-          if(number === 0) {
+          if (number === 0) {
             stop();
           }
         }

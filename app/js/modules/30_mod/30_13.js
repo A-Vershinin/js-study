@@ -15,9 +15,9 @@
         plus.addEventListener("click", btnHandler);
 
         function btnHandler() {
-          var number = +input.value+ +this.value;
+          var number = +input.value + +this.value;
 
-          if (number >= 0){
+          if (number >= 0) {
             input.value = number;
           } else {
             input.value = 0;

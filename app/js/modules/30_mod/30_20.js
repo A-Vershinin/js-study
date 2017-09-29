@@ -11,9 +11,9 @@
 
       function changeCustom(selectCountres, selectTowns) {
         var obj = {
-          "Aus": ["Мельбурн", "Сидней", "Аделаида", "Брисбен", "Хобарт"],
-          "Usa": ["Лос-Анжелес", "Нью-Йорк", "Бостон"],
-          "Ukr": ["Киев", "Харьков", "Львов"]
+          Aus: ["Мельбурн", "Сидней", "Аделаида", "Брисбен", "Хобарт"],
+          Usa: ["Лос-Анжелес", "Нью-Йорк", "Бостон"],
+          Ukr: ["Киев", "Харьков", "Львов"],
         };
         var item = document.createElement("p");
         selectCountres.addEventListener("change", selectCountresHandler);
@@ -37,8 +37,8 @@
         function writeToText() {
           var parent = document.querySelector(".block");
           item.innerHTML = "";
-          item.innerHTML = selectCountres.options[selectCountres.selectedIndex].text + ", "
-            +selectTowns.options[selectTowns.selectedIndex].text;
+          item.innerHTML = `${selectCountres.options[selectCountres.selectedIndex].text}, ${
+            selectTowns.options[selectTowns.selectedIndex].text}`;
           parent.appendChild(item);
         }
       }

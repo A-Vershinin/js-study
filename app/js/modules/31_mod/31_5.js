@@ -58,7 +58,7 @@
             }
           }
           function showAccoInner(elem) {
-            elem.style.height = elem.scrollHeight + "px";
+            elem.style.height = `${elem.scrollHeight}px`;
           }
         }
         container.insertBefore(accordion, nextElem);

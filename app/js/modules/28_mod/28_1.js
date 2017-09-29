@@ -24,7 +24,7 @@
 
         function listHandler(evt) {
           if (evt.target.tagName === "LI") {
-            evt.target.innerHTML = evt.target.innerHTML + "!";
+            evt.target.innerHTML = `${evt.target.innerHTML}!`;
           }
         }
       }

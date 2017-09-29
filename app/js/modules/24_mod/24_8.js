@@ -7,7 +7,7 @@
       var elem = document.querySelector("#title");
 
       function changeCustom(elem) {
-        elem.addEventListener("click", function() {
+        elem.addEventListener("click", () => {
           alert(elem.tagName);
         });
       }

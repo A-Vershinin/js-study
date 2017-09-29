@@ -12,12 +12,8 @@
       return func1(number) + func2(number);
     }
 
-    console.log(ggg(2, function (number) {
-        return number * number;
-      },
-      function (number) {
-        return number * number * number;
-      }),
+    console.log(ggg(2, number => number * number,
+      number => number * number * number),
     );
   }
   export default gggSumaKvadrataKub;

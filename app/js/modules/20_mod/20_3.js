@@ -10,9 +10,8 @@
       var text = document.getElementById("title");
 
       function chengeCustom(btn, text) {
-
         function someHandler() {
-          text.outerHTML = "<h3>" + text.innerHTML + "</h3>";
+          text.outerHTML = `<h3>${text.innerHTML}</h3>`;
         }
         btn.addEventListener("click", someHandler);
       }

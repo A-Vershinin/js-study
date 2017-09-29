@@ -15,7 +15,7 @@
         for (i = 0; i <= arr.length; i++) {
           sum += arr[i];
         }
-        sumAvareg = sum/arr.length;
+        sumAvareg = sum / arr.length;
         return sumAvareg;
       }
 

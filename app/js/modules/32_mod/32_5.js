@@ -18,12 +18,8 @@
       return rezult;
     }
 
-    console.log(each(arr, function (number) {
-      return number + 1;
-    }));
-    console.log(each(arr, function (number) {
-      return number * number;
-    }));
+    console.log(each(arr, number => number + 1));
+    console.log(each(arr, number => number * number));
   }
 
   export default each5Task;

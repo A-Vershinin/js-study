@@ -13,7 +13,7 @@
         var result;
         var data;
 
-        result = arr.reduce(function(sum, elem) {
+        result = arr.reduce((sum, elem) => {
           if (elem === 0) {
             data = sum;
           } else {

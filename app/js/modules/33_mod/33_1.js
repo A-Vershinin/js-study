@@ -10,9 +10,7 @@
       function changeCustom(arr) {
         var newArr = [];
 
-        arr.forEach(function(num) {
-          return newArr.push(num * num);
-        });
+        arr.forEach(num => newArr.push(num * num));
         console.log(newArr);
       }
       changeCustom(arr);

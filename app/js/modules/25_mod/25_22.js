@@ -12,8 +12,8 @@
         function btnHandler() {
           var itemWidth = this.offsetWidth;
           var itemHeight = this.offsetWidth;
-          this.style.width = itemWidth * 2 + "px";
-          this.style.height = itemHeight * 2 + "px";
+          this.style.width = `${itemWidth * 2}px`;
+          this.style.height = `${itemHeight * 2}px`;
         }
       }
       // changeCustom(btn);
