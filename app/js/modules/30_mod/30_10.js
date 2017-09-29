@@ -1,4 +1,4 @@
-(function () {
+
   /*
   Дан инпут. В него вводится слово. По нажатию на кнопку проверьте то, что это
   слово читается с начала и с конца одинаково (например, мадам)
@@ -33,6 +33,5 @@
     customFunction();
   }
 
-  window.task10 = customFunctionTask10;
-}());
+  export default customFunctionTask10;
 

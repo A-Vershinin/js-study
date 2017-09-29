@@ -1,4 +1,4 @@
-(function () {
+
   /*
   Даны N абзацев и кнопка. По нажатию на кнопку запишите в конец каждого абзаца его порядковый номер.
   */
@@ -21,6 +21,5 @@
     customFunction();
   }
 
-  window.task12 = customFunctionTask12;
-}());
+  export default customFunctionTask12;
 

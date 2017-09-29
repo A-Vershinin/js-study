@@ -1,4 +1,4 @@
-(function () {
+
   /*
   Дан список и кнопка. По нажатию на кнопку посортируйте пункты списка по возрастанию.
   */
@@ -32,6 +32,5 @@
     customFunction();
   }
 
-  window.task21 = customFunctionTask21;
-}());
+  export default customFunctionTask21;
 

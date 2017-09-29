@@ -1,4 +1,4 @@
-(function () {
+
   /*
   Дан инпут. Выделите любой текст на странице. По окончанию выделения этот
   текст должен записаться в этот инпут.
@@ -21,6 +21,5 @@
     customFunction();
   }
 
-  window.task16 = customFunctionTask16;
-}());
+  export default customFunctionTask16;
 

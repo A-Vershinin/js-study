@@ -1,4 +1,4 @@
-(function () {
+
   /*
   В инпут через запятую вводятся страны. По нажатию на кнопку сделайте так, чтобы эти страны
   записались в ul под инпутом (каждая страна отдельный li)
@@ -32,6 +32,5 @@
     customFunction();
   }
 
-  window.task18 = customFunctionTask18;
-}());
+  export default customFunctionTask18;
 

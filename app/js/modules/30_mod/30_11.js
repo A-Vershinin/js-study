@@ -1,4 +1,4 @@
-(function () {
+
   /*
   Дан инпут. В него вводится число. Проверьте по вводу, что это число содержит внутри себя цифру 3.
   */
@@ -30,6 +30,5 @@
     customFunction();
   }
 
-  window.task11 = customFunctionTask11;
-}());
+  export default customFunctionTask11;
 

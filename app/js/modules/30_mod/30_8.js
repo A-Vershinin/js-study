@@ -1,4 +1,4 @@
-(function () {
+
   /*
   Дан инпут. В него вводится текст. По потери фокуса узнайте количество
   символов в самом длинном слове в этом тексте.
@@ -41,6 +41,5 @@
     customFunction();
   }
 
-  window.task8 = customFunctionTask8;
-}());
+  export default customFunctionTask8;
 

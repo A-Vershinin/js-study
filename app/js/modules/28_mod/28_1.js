@@ -1,4 +1,4 @@
-(function () {
+
   /*
   Дан ul, в нем несколько li. Под ul сделайте кнопку, по нажатию на которую в конец ul
   будет добавляться новый li с текстом 'пункт'. Сделайте так, чтобы при клике на каждый
@@ -33,6 +33,5 @@
     customFunction();
   }
 
-  window.task1 = customFunctionTask;
-}());
+  export default customFunctionTask;
 

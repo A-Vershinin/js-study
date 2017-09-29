@@ -1,13 +1,19 @@
-
-  /*
-
+ /*
+  Дан массив. Запишите последний элемент этого массива в переменную elem1, а
+  предпоследний - в переменную elem2
   */
   function customFunctionTask2() {
     function customFunction() {
-      const container = document.querySelector(".container");
+      const arr = [25, 12, 32, 40, 14, 32, 65, 23];
 
-      const newStr = "Next Task";
-      console.log(newStr);
+      console.log(`Базовый массив ${arr}`);
+
+      arr.reverse();
+      const [elem1, elem2, ...args] = arr;
+
+      console.log(`Последний элем. ${elem1}, 
+      предпоследний элем. ${elem2},
+      остаток ${args}`);
     }
     customFunction();
   }

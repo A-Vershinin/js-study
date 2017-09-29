@@ -1,4 +1,4 @@
-(function () {
+
   /*
   Дан инпут. В него вводятся числа через запятую. По потери фокуса найдите
   среднее арифметическое этих чисел (сумма делить на количество).
@@ -27,6 +27,5 @@
     customFunction();
   }
 
-  window.task4 = customFunctionTask4;
-}());
+  export default customFunctionTask4;
 

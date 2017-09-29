@@ -1,4 +1,4 @@
-(function () {
+
   /*
   Дан инпут. В него вводится текст. По потери фокуса узнайте количество слов в этом тексте.
   */
@@ -30,6 +30,5 @@
     customFunction();
   }
 
-  window.task7 = customFunctionTask7;
-}());
+  export default customFunctionTask7;
 

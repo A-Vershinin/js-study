@@ -1,4 +1,4 @@
-(function () {
+
   /*
  Дан селект. Дан инпут. По изменению селекта выведите текст выбранного пункта в инпут.
   */
@@ -25,6 +25,5 @@
     }
     customFunction();
   }
-  window.task3 = customFunctionTask3;
-}());
+  export default customFunctionTask3;
 

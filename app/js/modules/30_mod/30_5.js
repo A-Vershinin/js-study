@@ -1,4 +1,4 @@
-(function () {
+
   /*
   Дан инпут. В него вводится ФИО через пробел. По потери фокуса
   запишите фамилию, имя и отчество в отдельные инпуты.
@@ -34,6 +34,5 @@
     customFunction();
   }
 
-  window.task5 = customFunctionTask5;
-}());
+  export default customFunctionTask5;
 

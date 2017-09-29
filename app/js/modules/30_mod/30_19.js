@@ -1,4 +1,4 @@
-(function () {
+
   /*
   В инпут вводится страна и нажимается Enter. По нажатию на Enter сделайте так,
   чтобы введенные страны записывались в абзац под инпутом через запятую.
@@ -25,6 +25,5 @@
     customFunction();
   }
 
-  window.task19 = customFunctionTask19;
-}());
+  export default customFunctionTask19;
 

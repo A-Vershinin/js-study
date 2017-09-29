@@ -1,22 +1,38 @@
+  import testTask from "../35_mod/35_test";
   import task1 from "../35_mod/35_1";
   import task2 from "../35_mod/35_2";
+  import task3 from "../35_mod/35_3";
+  import task4 from "../35_mod/35_4";
+  import task5 from "../35_mod/35_5";
+  import task6 from "../35_mod/35_6";
+  import task7 from "../35_mod/35_7";
+  import task8 from "../35_mod/35_8";
+  import task9 from "../35_mod/35_9";
+  import task10 from "../35_mod/35_10";
+  import task11 from "../35_mod/35_11";
+  import task12 from "../35_mod/35_12";
+
 
   // Описание всех тасков внутри
-  // Минипроекты JavaScript
+  // Задачи на фичи  ES6
+
   const mod35 = {
+    testTask,
+    // на деструктуризацию
     task1,
     task2,
-    // task3();
-    // task4();
-    // task5();
-    // task6();
-    // task7();
-    // task8();
-    // task9();
-    // task10();
-    // task11();
-    // task12();
-    // task13();
+    task3,
+    task4,
+    task5,
+    task6,
+    // на итераторы
+    task7,
+    task8,
+    task9,
+    task10,
+    task11,
+    task12,
+    // task13,
     // task14();
     // task15();
     // task16();

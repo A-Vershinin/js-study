@@ -8,7 +8,7 @@ module.exports = function () {
       return $.browserify({
         entries: sourcePath + bundle,
         debug: true,
-      })
+      }, { since: $.gulp.lastRun("js:common") })
         .transform($.babel, {
           presets: ["es2015", "env"],
           plugins: ["transform-runtime"],

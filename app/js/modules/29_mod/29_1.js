@@ -1,4 +1,4 @@
-(function () {
+
   /*
   Дана форма с id="form". В ней даны инпуты, в них числа. Дана кнопка. По нажатию
   на эту кнопку получите форму по ее id, затем циклом переберите все инпуты в ней
@@ -28,6 +28,5 @@
     customFunction();
   }
 
-  window.task1 = customFunctionTask;
-}());
+  export default customFunctionTask;
 

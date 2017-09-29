@@ -1,4 +1,4 @@
-(function () {
+
   /*
   Дан инпут. В него вводится ФИО через пробел. ФИО вводится с маленькой буквы.
   Сделайте так, чтобы по потери фокуса инпутом, введенные фамилия, имя и отчество
@@ -36,6 +36,5 @@
     customFunction();
   }
 
-  window.task6 = customFunctionTask6;
-}());
+  export default customFunctionTask6;
 

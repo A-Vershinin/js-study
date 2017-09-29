@@ -1,4 +1,4 @@
-(function () {
+
   /*
   Дан селект. Дан инпут. Дана кнопка. Сделайте так, чтобы в инпут можно было ввести
   число, нажать на кнопку и в селекте становился выбранным пункт с этим номером.
@@ -20,7 +20,7 @@
           var options = selectItem.options;
           console.log(temp);
           for (i = 0; i < options.length; i++) {
-            if (options[i].index == temp - 1) {
+            if (options[i].index === temp - 1) {
               options[i].selected = true;
             }
           }
@@ -39,6 +39,5 @@
     }
     customFunction();
   }
-  window.task4 = customFunctionTask4;
-}());
+  export default customFunctionTask4;
 

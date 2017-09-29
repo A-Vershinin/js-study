@@ -1,6 +1,7 @@
-(function () {
+
   /*
-  Дан инпут и кнопка. По нажатию на кнопку сгенерируйте случайную строку из 8-ми символов и запишите в инпут.
+  Дан инпут и кнопка. По нажатию на кнопку сгенерируйте случайную строку из 8-ми символов и
+  запишите в инпут.
   */
   function customFunctionTask17() {
     function customFunction() {
@@ -26,6 +27,5 @@
     customFunction();
   }
 
-  window.task17 = customFunctionTask17;
-}());
+  export default customFunctionTask17;
 

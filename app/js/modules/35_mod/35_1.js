@@ -1,55 +1,14 @@
-
-
   /*
-
+    Дан массив. Запишите первый элемент этого массива в переменную elem1, второй -
+    в переменную elem2, третий - в переменную elem3, а все остальные элементы массива
+    - в переменную arr.
   */
   function customFunctionTask1() {
     function customFunction() {
-      const container = document.querySelector(".container");
-      //
-      const [name, age = "20"] = ["Иванов", 25];
-      console.log(name, age);
+      const arr = [25, 12, 32, 40, 14, 32, 65, 23];
 
-
-      const someFunc = (data = "ES6") => {
-        console.log(`it's ${data} arrow function`);
-      };
-      someFunc("ES7");
-
-      const test = (x, y, z) => x + y + z;
-      // console.log(test.apply(null, [1, 2, 3]));
-
-      test(...[1, 2, 3]);
-
-
-      function changeCustom(container) {
-        const obj = {
-          key: "sss",
-          firstName: "Василий",
-
-          toSting() {
-            return `Hello ${firstName}`;
-          },
-          valueOf() {
-            return 1;
-          },
-        };
-        obj.valueOf();
-        const options = {
-          color: "red",
-          width: 400,
-          height: 500,
-        };
-
-        const { color = "black", width, height } = options;
-
-        const arr = [1, 2, 3];
-
-        for (const key of arr) {
-          console.log(key);
-        }
-      }
-      changeCustom(container);
+      const [elem1, elem2, elem3, ...args] = arr;
+      console.log(elem1, elem2, elem3, args);
     }
     customFunction();
   }

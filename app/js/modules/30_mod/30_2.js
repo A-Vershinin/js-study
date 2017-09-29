@@ -1,4 +1,4 @@
-(function () {
+
   /*
   Даны N инпутов с классом .num и кнопка. По нажатию на кнопку получите
   числа, стоящие в этих инпутах и запишите их сумму в абзац с id="result".
@@ -31,6 +31,4 @@
     customFunction();
   }
 
-  window.task2 = customFunctionTask2;
-}());
-
+  export default customFunctionTask2;

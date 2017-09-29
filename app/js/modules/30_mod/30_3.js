@@ -1,4 +1,4 @@
-(function () {
+
   /*
   Дан инпут. В него вводится число. По потери фокуса найдите сумму цифр этого числа.
   */
@@ -26,6 +26,5 @@
     customFunction();
   }
 
-  window.task3 = customFunctionTask3;
-}());
+  export default customFunctionTask3;
 
