@@ -1,4 +1,4 @@
-;(function () {
+
   /*
 	Даны кнопки. Привяжите к каждой кнопке событие по клику,
 	которое будет считать количество нажатий по кнопке и
@@ -29,5 +29,5 @@
     }
     customFunction();
   }
-  window.task8 = customFunctionTask8;
-}());
+  export default customFunctionTask8;
+

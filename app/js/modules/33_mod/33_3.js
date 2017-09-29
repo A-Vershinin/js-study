@@ -1,5 +1,4 @@
-;(function () {
-  /*
+ /*
 	Дан массив с числами. Найдите сумму этих чисел.
 	*/
 
@@ -14,11 +13,11 @@
           return num * num;
         });
         console.log(newArr);
-
       }
       changeCustom(arr);
     }
     customFunction();
   }
-  window.task3 = customFunctionTask3;
-}());
+
+  export default customFunctionTask3;
+

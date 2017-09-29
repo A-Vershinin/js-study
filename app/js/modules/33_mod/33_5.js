@@ -1,4 +1,4 @@
-;(function () {
+
   /*
 	Дан массив с числами. Проверьте то, что в нем есть отрицательные элементы
 	*/
@@ -18,5 +18,6 @@
     }
     customFunction();
   }
-  window.task5 = customFunctionTask5;
-}());
+
+  export default customFunctionTask5;
+

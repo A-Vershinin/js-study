@@ -1,10 +1,12 @@
-"use strict";
 
 module.exports = function() {
   $.gulp.task("watch", function() {
     $.gulp.watch("./app/*.html", $.gulp.series("html"));
     $.gulp.watch("./app/styles/*.css", $.gulp.series("styles"));
-    $.gulp.watch("./app/js/**/*.js", $.gulp.series("js:common"));
+    $.gulp.watch([
+      "./app/js/*.js",
+      "./app/js/modules/**/*.js",
+    ], $.gulp.series("js:common"));
     $.gulp.watch("./app/img/**/*.*", $.gulp.series("images"));
     $.gulp.watch("./app/fonts/**/*.*", $.gulp.series("fonts"));
   });

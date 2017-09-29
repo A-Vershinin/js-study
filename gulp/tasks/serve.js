@@ -1,4 +1,4 @@
-"use strict";
+
 
 module.exports = function() {
   $.gulp.task("serve", function() {
@@ -8,6 +8,7 @@ module.exports = function() {
       open: true,
       server: $.config.root,
       ui: false,
+      cors: true,
       port: 3000,
       // tunnel: true,
       logPrefix: "front-end",

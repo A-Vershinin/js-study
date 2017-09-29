@@ -14,13 +14,15 @@
 
         function timer() {
           var elem = document.getElementById("field2");
-          elem.value = parseInt(elem.value)+1;
+          elem.value = parseInt(elem.value) + 1;
         }
 
         btn.addEventListener("click", startTimer);
       }
+
       // changeCustom(btn);
     }
+
     customFunction();
   }
 

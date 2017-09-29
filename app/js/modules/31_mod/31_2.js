@@ -1,5 +1,4 @@
-(function () {
-  /*
+ /*
   Реализуйте чеклист. Должен быть инпут с добавлением задачи, а под ним - список с задачами.
   Возле каждой задачи чекбос. Если нажать на чекбокс - задача становится выполненной,
   перечеркивается и становится красного цвета, чекбокс при этом пропадает. Справа от любой
@@ -51,7 +50,7 @@
             input.value = "";
             rowInput.addEventListener("click", checkboxHandler);
             li.addEventListener("click", closeHandler);
-            li.addEventListener("click", editHandler);
+            // li.addEventListener("click", editHandler);
           }
 
           function checkboxHandler(evt) {
@@ -82,6 +81,5 @@
     customFunction();
   }
 
-  window.task2 = customFunctionTask2;
-}());
+ export default customFunctionTask2;
 

@@ -1,4 +1,4 @@
-;(function () {
+
   /*
 	Дан массив с числами. Найдите сумму этих чисел.
 	*/
@@ -20,5 +20,5 @@
     }
     customFunction();
   }
-  window.task2 = customFunctionTask2;
-}());
+
+  export default customFunctionTask2;

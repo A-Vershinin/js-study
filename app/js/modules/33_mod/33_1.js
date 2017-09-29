@@ -1,4 +1,4 @@
-;(function () {
+
   /*
 	Дан массив с числами. Создайте новый массив, состоящий
 	из квадратов этих чисел.
@@ -19,5 +19,6 @@
     }
     customFunction();
   }
-  window.task1 = customFunctionTask1;
-}());
+
+  export default customFunctionTask1;
+

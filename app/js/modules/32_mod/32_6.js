@@ -1,4 +1,4 @@
-;(function () {
+
   /*  Задача 6
 	Сделайте функцию each, которая первым параметром
 	принимает массив,а вторым - массив функций, которые
@@ -35,5 +35,5 @@
     console.log(each(arr, arr2));
   }
 
-  window.task6 = each6Task;
-}());
+  export default each6Task;
+

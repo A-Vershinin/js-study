@@ -1,4 +1,4 @@
-;(function () {
+
   /*
 	Дан массив с числами. Оставьте в нем только отрицательные числа.
 	*/
@@ -20,5 +20,6 @@
     }
     customFunction();
   }
-  window.task6 = customFunctionTask6;
-}());
+
+  export default customFunctionTask6;
+

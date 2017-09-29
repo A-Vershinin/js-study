@@ -1,4 +1,4 @@
-;(function () {
+
   /*
 	Дан массив с числами. Узнайте сколько элементов с начала
 	массива надо сложить, чтобы в сумме получилось больше 10-ти.
@@ -26,5 +26,5 @@
     }
     customFunction();
   }
-  window.task14 = customFunctionTask14;
-}());
+  export default customFunctionTask14;
+

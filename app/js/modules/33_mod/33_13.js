@@ -1,4 +1,4 @@
-;(function () {
+
   /*
 	Дан массив с числами. Найдите сумму последних N элементов до первого нуля с
 	конца. Пример: [1, 2, 3, 0, 4, 5, 6] - суммируем последние 3 элемента,
@@ -30,5 +30,5 @@
     }
     customFunction();
   }
-  window.task13 = customFunctionTask13;
-}());
+  export default customFunctionTask13;
+

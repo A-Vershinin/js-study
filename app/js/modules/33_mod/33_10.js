@@ -1,4 +1,4 @@
-;(function () {
+
   /*
 	Дан массив с числами. Посчитайте количество отрицательных чисел в этом массиве
 	*/
@@ -20,5 +20,6 @@
     }
     customFunction();
   }
-  window.task10 = customFunctionTask10;
-}());
+
+  export default customFunctionTask10;
+

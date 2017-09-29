@@ -5,7 +5,7 @@
   */
   function customFunctionTask5() {
     function customFunction() {
-      var arrSum = [];
+      // var arrSum = [];
 
       function getDigitsSum(num) {
         var i;

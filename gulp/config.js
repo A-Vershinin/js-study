@@ -1,5 +1,5 @@
 module.exports = {
-  root: './build',
+  root: "./build",
 
-  autoprefixerConfig: ['last 3 version', '> 1%']
+  autoprefixerConfig: ["last 3 version", "> 1%"],
 };

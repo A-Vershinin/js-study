@@ -1,4 +1,4 @@
-(function () {
+
   /*
   Реализуйте калькулятор. Должны быть кнопки цифр и операций.
   По нажатию на кнопку '=' должен посчитаться результат. Совет: используйте фунцию eval
@@ -43,6 +43,5 @@
     customFunction();
   }
 
-  window.task1 = customFunctionTask;
-}());
+  export default customFunctionTask;
 

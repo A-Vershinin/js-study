@@ -1,4 +1,3 @@
-"use strict";
 
 module.exports = function() {
   $.gulp.task("css:bundle", function() {
@@ -8,8 +7,8 @@ module.exports = function() {
       //   html: [$.config.root + "/*.html"]
       // }))
       .pipe($.gulp.dest($.config.root + "/css"))
-      .pipe($.gp.csso())
-      .pipe($.gp.rename({suffix: ".min"}))
-      .pipe($.gulp.dest($.config.root + "/css"))
-  })
+      .pipe($.gp.if(!$.dev, $.gp.csso()))
+      .pipe($.gp.if(!$.dev, $.gp.rename({ suffix: ".min" })))
+      .pipe($.gulp.dest($.config.root + "/css"));
+  });
 };

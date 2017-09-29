@@ -1,4 +1,4 @@
-;(function () {
+
   /*
 	Дан массив с числами. Найдите сумму первых N элементов до первого нуля.
 	Пример: [1, 2, 3, 0, 4, 5, 6] - суммируем первые 3 элемента, так как дальше
@@ -30,5 +30,5 @@
     }
     customFunction();
   }
-  window.task12 = customFunctionTask12;
-}());
+  export default customFunctionTask12;
+

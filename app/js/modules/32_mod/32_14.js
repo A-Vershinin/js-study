@@ -1,4 +1,4 @@
-;(function () {
+
   /*
    задача – скопировать в существующий объект свойства
    из одного или нескольких других.
@@ -7,14 +7,14 @@
     var vasya = {
       age: 21,
       name: "Вася",
-      surname: "Петров"
+      surname: "Петров",
     };
     var user = {
       isAdmin: false,
-      isEmailConfirmed: true
+      isEmailConfirmed: true,
     };
     var student = {
-      university: "My university"
+      university: "My university",
     };
 
     function copy(dst) {
@@ -48,5 +48,5 @@
     console.log(vasya);
   }
 
-  window.task14 = taskCopyObjectProp;
-}());
+  export default taskCopyObjectProp;
+

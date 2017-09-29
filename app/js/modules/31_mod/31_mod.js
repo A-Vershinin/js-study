@@ -1,41 +1,18 @@
-(function () {
+import task1 from "../31_mod/31_1";
+import task2 from "../31_mod/31_2";
+import task3 from "../31_mod/31_3";
+import task4 from "../31_mod/31_4";
+import task5 from "../31_mod/31_5";
+
   // Описание всех тасков внутри
   // Минипроекты JavaScript
 
-  // task1();
-  // task2();
-  // task3();
-  // task4();
-  // task5();
-  // task6();
-  // task7();
-  // task8();
-  // task9();
-  // task10();
-  // task11();
-  // task12();
-  // task13();
-  // task14();
-  // task15();
-  // task16();
-  // task17();
-  // task18();
-  //
-  // task19();
-  // task20();
-  // task21();
-  // task22();
-  // task23();
-  // task24();
-  // task25();
-  // task26();
-  // task27();
-  // task28();
-  // task29();
-  // task30();
-  // task31();
-  // task32();
-  // task33();
-  // task34();
-  // task35();
-}());
+const mod31 = {
+  task1,
+  task2,
+  task3,
+  task4,
+  task5,
+};
+
+export default mod31;

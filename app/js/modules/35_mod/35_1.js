@@ -1,32 +1,57 @@
-(function () {
+
+
   /*
 
   */
-  function customFunctionTask() {
+  function customFunctionTask1() {
     function customFunction() {
-      var container = document.querySelector(".container");
+      const container = document.querySelector(".container");
+      //
+      const [name, age = "20"] = ["Иванов", 25];
+      console.log(name, age);
+
+
+      const someFunc = (data = "ES6") => {
+        console.log(`it's ${data} arrow function`);
+      };
+      someFunc("ES7");
+
+      const test = (x, y, z) => x + y + z;
+      // console.log(test.apply(null, [1, 2, 3]));
+
+      test(...[1, 2, 3]);
+
 
       function changeCustom(container) {
-        var obj = {
+        const obj = {
           key: "sss",
           firstName: "Василий",
 
-          toSting: function getName() {
-            return this.firstName;
+          toSting() {
+            return `Hello ${firstName}`;
           },
-          valueOf: function getNumber() {
+          valueOf() {
             return 1;
-          }
+          },
         };
-        // obj.valueOf();
+        obj.valueOf();
+        const options = {
+          color: "red",
+          width: 400,
+          height: 500,
+        };
 
-        // console.log(obj.valueOf() === true);
+        const { color = "black", width, height } = options;
+
+        const arr = [1, 2, 3];
+
+        for (const key of arr) {
+          console.log(key);
+        }
       }
       changeCustom(container);
     }
     customFunction();
   }
 
-  window.task1 = customFunctionTask;
-}());
-
+  export default customFunctionTask1;

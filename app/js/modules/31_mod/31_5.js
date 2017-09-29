@@ -1,5 +1,4 @@
-(function () {
-  /*
+ /*
   Реализуйте аккордион.
   */
   function customFunctionTask5() {
@@ -69,6 +68,5 @@
     customFunction();
   }
 
-  window.task5 = customFunctionTask5;
-}());
+ export default customFunctionTask5;
 

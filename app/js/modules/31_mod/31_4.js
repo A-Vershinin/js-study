@@ -1,6 +1,6 @@
-(function () {
-  /*
-  Реализуйте вкладки - нажимая на каждую вкладку мы будем видеть ниже текст, соответствующий этой вкладке.
+ /*
+  Реализуйте вкладки - нажимая на каждую вкладку мы будем видеть ниже текст, соответствующий
+  этой вкладке.
   */
   function customFunctionTask4() {
     function customFunction() {
@@ -61,6 +61,5 @@
     customFunction();
   }
 
-  window.task4 = customFunctionTask4;
-}());
+ export default customFunctionTask4;
 

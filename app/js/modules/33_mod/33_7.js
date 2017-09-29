@@ -1,4 +1,4 @@
-;(function () {
+
   /*
 	Дан массив с числами. Оставьте в нем только четные числа.
 	*/
@@ -20,5 +20,6 @@
     }
     customFunction();
   }
-  window.task7 = customFunctionTask7;
-}());
+
+  export default customFunctionTask7;
+

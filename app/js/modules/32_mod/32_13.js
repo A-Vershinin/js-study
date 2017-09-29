@@ -1,4 +1,4 @@
-;(function () {
+
   /*
   Применение замыканий
 	дано несколько кнопочек. Давайте сделаем так,
@@ -27,7 +27,7 @@
         counter = 0;
         // Эта функция привяжется к onclick:
         return function () {
-          counter++;  // берется из замыкания - для каждой
+          counter += 1;  // берется из замыкания - для каждой
           // кнопки своя переменная
           this.innerHTML += counter;
         };
@@ -35,5 +35,5 @@
     }
   }
 
-  window.task13 = clickUpValue;
-}());
+  export default clickUpValue;
+

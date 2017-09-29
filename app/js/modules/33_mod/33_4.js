@@ -1,4 +1,4 @@
-;(function () {
+
   /*
 	Дан массив с числами. Проверьте то, что все элементы в массиве больше нуля.
 	*/
@@ -16,5 +16,6 @@
     }
     customFunction();
   }
-  window.task4 = customFunctionTask4;
-}());
+
+  export default customFunctionTask4;
+

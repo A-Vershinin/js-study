@@ -1,4 +1,4 @@
-;(function () {
+
   /*
 	Дан массив с числами. Оставьте в нем только положительные числа.
 	Затем извлеките квадратный корень и этих чисел.
@@ -25,5 +25,5 @@
     }
     customFunction();
   }
-  window.task15 = customFunctionTask15;
-}());
+  export default customFunctionTask15;
+

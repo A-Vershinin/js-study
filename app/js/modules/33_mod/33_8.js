@@ -1,4 +1,4 @@
-;(function () {
+
   /*
 	Дан массив со строками. Оставьте в нем только те строки, длина которых больше 5-ти символов
 	*/
@@ -20,5 +20,6 @@
     }
     customFunction();
   }
-  window.task8 = customFunctionTask8;
-}());
+
+  export default customFunctionTask8;
+

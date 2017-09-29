@@ -1,4 +1,4 @@
-;(function () {
+
   /*
   Дана функция ggg. Она требует первым параметром число,
   вторым функцию, которая возводит в квадрат, а третьим
@@ -17,8 +17,8 @@
       },
       function (number) {
         return number * number * number;
-      })
+      }),
     );
-  };
-  window.task4 = gggSumaKvadrataKub;
-}());
+  }
+  export default gggSumaKvadrataKub;
+

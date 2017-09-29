@@ -1,4 +1,3 @@
-"use strict";
 
 module.exports = function() {
   $.gulp.task("styles", function() {
@@ -7,19 +6,20 @@ module.exports = function() {
         errorHandler: $.gp.notify.onError(function(err) {
           return {
             title: "Styles",
-            message: err.message
+            message: err.message,
           };
-        })
+        }),
       }))
-      .pipe($.gp.autoprefixer({
-        browsers: $.config.autoprefixerConfig
-      }))
-      .pipe($.gp.concat("app.css"))
+      .pipe($.gp.if($.dev, $.gp.sourcemaps.init()))
       // .pipe($.gp.csscomb(cssCombConfig))
+      .pipe($.gp.autoprefixer({ browsers: $.config.autoprefixerConfig }))
+      .pipe($.gp.concat("app.css"))
       .pipe($.gulp.dest($.config.root + "/css"))
-      .pipe($.gp.csso())
-      .pipe($.gp.rename({suffix: ".min"}))
+      .pipe($.gp.if(!$.dev, $.gp.csso()))
+      .pipe($.gp.if($.dev, $.gp.sourcemaps.write()))
+      .pipe($.gp.if(!$.dev, $.gp.rename({ suffix: ".min" })))
       .pipe($.gulp.dest($.config.root + "/css"))
       .pipe($.browserSync.stream());
   });
 };
+

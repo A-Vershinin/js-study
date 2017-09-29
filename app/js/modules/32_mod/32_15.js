@@ -1,5 +1,4 @@
-;(function () {
-  "user strict";
+
   /*
    Именованные аргументы – альтернативная техника
    работы с аргументами, которая вообще не использует
@@ -14,20 +13,20 @@
       var height = options.height || 100;
       var contents = options.contents || "Предупреждение";
       console.log(width, height, contents);
-    };
+    }
     // вызов функции с значениями в переменных по умолчанию,
     // в одной переменной задали своё значение
     showWarning({
-      contents: "Вы вызвали функцию"
+      contents: "Вы вызвали функцию",
     });
     // создали объект с настройками и передаём его в функцию
     opts = {
       width: 400,
       height: 200,
-      contents: "Текст"
+      contents: "Текст",
     };
     showWarning(opts);
   }
 
-  window.task15 = showHowUseDefaultOptions;
-}());
+  export default showHowUseDefaultOptions;
+

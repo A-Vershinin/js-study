@@ -1,4 +1,4 @@
-;(function () {
+
   function summaAllArguments() {
     /*
 		Напишите функцию sum(...), которая возвращает
@@ -18,5 +18,5 @@
     console.log(suma(1, 2, 3));
   }
 
-  window.task16 = summaAllArguments;
-}());
+  export default summaAllArguments;
+
