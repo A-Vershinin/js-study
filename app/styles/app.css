@@ -28,7 +28,6 @@ body {
   border: 2px solid black;
   text-transform: uppercase;
   box-sizing: border-box;
-
 }
 .link:active {
   color: red;

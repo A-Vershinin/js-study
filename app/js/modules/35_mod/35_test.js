@@ -35,6 +35,10 @@ function testTask() {
         width: 400,
         height: 500,
       };
+      function setParams({color, width, height}) {
+        console.log(color, width, height);
+      }
+      // setParams(options);
 
       const { color = "black", width, height } = options;
 
@@ -68,6 +72,7 @@ function testTask() {
 
 
       // классы
+      // вернусь позже
       class Car {
         constructor(name) {
           this.name = name;
@@ -81,8 +86,8 @@ function testTask() {
         }
       }
       const bmw = new Car("M5");
-      bmw.drive();
-      bmw.stop();
+      // bmw.drive();
+      // bmw.stop();
       // console.log(bmw.name);
       // console.log(bmw.wheels);
 
@@ -96,8 +101,8 @@ function testTask() {
         }
       }
       const tesla = new ElectroCar();
-      tesla.drive();
-      tesla.stop();
+      // tesla.drive();
+      // tesla.stop();
 
     }
     changeCustom();

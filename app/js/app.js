@@ -5,20 +5,34 @@ import mod31 from "./modules/31_mod/31_mod";
 import mod32 from "./modules/32_mod/32_mod";
 import mod33 from "./modules/33_mod/33_mod";
 import mod35 from "./modules/35_mod/35_mod";
+import mod36 from "./modules/36_mod/36_mod";
+import mod50 from "./modules/50_mod/50_mod";
+import mod51 from "./modules/51_mod/51_mod";
 
 
 // console.log(mod28);
 
-mod35.testTask();
-// mod35.task1();
-// mod35.task2();
-// mod35.task3();
-// mod35.task4();
-// mod35.task5();
-// mod35.task6();
-// mod35.task7();
-// mod35.task8();
-// mod35.task9();
-// mod35.task10();
-// mod35.task11();
-// mod35.task12();
+
+// mod36.task1();
+// mod36.task2();
+// mod36.task3();
+// mod36.task4();
+// mod36.task5();
+// mod36.task6();
+// mod36.task7();
+// mod36.task8();
+// mod36.task9();
+// mod36.task10();
+// mod36.task11();
+// mod36.task12();
+// mod36.task13();
+// mod36.task14();
+// mod36.task15();
+// mod36.task16();
+// mod36.task17();
+// mod36.task18();
+// mod36.task19();
+// mod36.task20();
+// mod36.task21();
+// mod36.task22();
+// mod36.task23();
