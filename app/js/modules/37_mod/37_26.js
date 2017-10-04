@@ -16,4 +16,3 @@ function customFunctionTask26() {
 }
 
 export default customFunctionTask26;
-

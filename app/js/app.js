@@ -6,7 +6,7 @@
 // import mod33 from "./modules/33_mod/33_mod";
 // import mod35 from "./modules/35_mod/35_mod";
 // import mod36 from "./modules/36_mod/36_mod";
-import mod37 from "./modules/37_mod/37_mod";
+// import mod37 from "./modules/37_mod/37_mod";
 // import mod50 from "./modules/50_mod/50_mod";
 // import mod51 from "./modules/51_mod/51_mod";
 
@@ -39,7 +39,7 @@ import mod37 from "./modules/37_mod/37_mod";
 // mod37.task23();
 // mod37.task24();
 // mod37.task25();
-mod37.task26();
+// mod37.task26();
 // mod37.task27();
 // mod37.task28();
 // mod37.task29();
@@ -48,10 +48,4 @@ mod37.task26();
 // mod37.task32();
 // mod37.task33();
 // mod37.task34();
-// mod37.task35();
-// mod37.task36();
-// mod37.task37();
-// mod37.task38();
-// mod37.task39();
-// mod37.task40();
 
