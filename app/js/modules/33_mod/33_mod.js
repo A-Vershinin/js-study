@@ -13,6 +13,8 @@ import task12 from "../33_mod/33_12";
 import task13 from "../33_mod/33_13";
 import task14 from "../33_mod/33_14";
 import task15 from "../33_mod/33_15";
+import task16 from "../33_mod/33_16";
+import task17 from "../33_mod/33_17";
 
   // Описание всех тасков внутри
   const mod33 = {
@@ -23,6 +25,7 @@ import task15 from "../33_mod/33_15";
 
     // На map
     task3,
+    task16,
 
     // На every, some
     task4,
@@ -41,6 +44,7 @@ import task15 from "../33_mod/33_15";
     task13,
     task14,
     task15,
+    task17,
   };
 
   export default mod33;
