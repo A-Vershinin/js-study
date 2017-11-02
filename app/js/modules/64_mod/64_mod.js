@@ -1,8 +1,9 @@
-
-import task1 from "./64_1";
-import task2 from "./64_2";
-import task3 from "./64_3";
+//
+// import task1 from "./64_1";
+// import task2 from "./64_2";
+// import task3 from "./64_3";
 // import task4 from "./64_4";
+
 
 
 // Описание всех тасков внутри
@@ -10,8 +11,8 @@ import task3 from "./64_3";
 
 const mod64 = {
   task1,
-  task2,
-  task3,
+  // task2,
+  // task3,
   // task4,
   // task5,
   // task6,

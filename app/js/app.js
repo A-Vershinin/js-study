@@ -20,10 +20,10 @@
 
 
 // mod64.task1();
-// mod64.task2();
+// mod63.task2();
 // mod64.task3();
-// mod62.task4();
-// mod38.task5();
+// mod64.task4();
+// mod64.task5();
 // mod31.task6();
 // mod38.task7();
 // mod38.task8();
