@@ -1,7 +1,7 @@
 
 module.exports = function() {
   $.gulp.task("styles", function() {
-    return $.gulp.src("./app/styles/app.css")
+    return $.gulp.src("./app/styles/app.scss")
       .pipe($.gp.plumber({
         errorHandler: $.gp.notify.onError(function(err) {
           return {

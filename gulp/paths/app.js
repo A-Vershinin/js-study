@@ -5,6 +5,6 @@ module.exports = {
 };
 
 // module.exports = [
-//   "./app/js/app.js",
+//   "./app/js/ReactApp.jsx",
 //   "./app/js/modules/**/*.js",
 // ];
