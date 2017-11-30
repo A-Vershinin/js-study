@@ -68,8 +68,9 @@
     "vinyl-source-stream": "^1.1.0"
   },
   "dependencies": {
-    "normalize.css": "^7.0.0",
-    "jquery": "^3.2.0"
+    "bootstrap": "3",
+    "jquery": "^3.2.0",
+    "normalize.css": "^7.0.0"
   },
   "editorconfig-cli": [
     "*.html",

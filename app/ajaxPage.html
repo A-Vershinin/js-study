@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+	<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+	<meta name="format-detection" content="telephone=no"/>
+	<title>Ajax</title>
+	<meta name="author" content=""/>
+	<meta name="description" content=""/>
+	<meta name="keywords" content=""/>
+  <link rel="stylesheet" href="./css/bundle.css">
+  <link rel="stylesheet" href="./css/app.css">
+</head>
+<body>
+  <div class="container" id="container">
+    <button class="btn btn-ajax" data-page="index" style="margin-bottom: 30px">Кнопка1</button>
+    <button class="btn" data-page="ajaxPage2" style="margin-bottom: 30px">Кнопка2</button>
+    <button class="btn" data-page="ajaxPage3" style="margin-bottom: 30px">Кнопка3</button>
+    <div class="ajax"></div>
+
+    <div class="products products-ajax">
+      <ul class="products__list">
+        <li class="products__item">
+          <img src="https://cdn.fishki.net/upload/post/2017/03/19/2245758/02-funny-cat-wallpapercat-wallpaper.jpg"/>
+        </li>
+        <li class="products__item">
+          <img src="https://cdn.fishki.net/upload/post/2017/03/19/2245758/02-funny-cat-wallpapercat-wallpaper.jpg"/>
+        </li>
+        <li class="products__item">
+          <img src="https://cdn.fishki.net/upload/post/2017/03/19/2245758/02-funny-cat-wallpapercat-wallpaper.jpg"/>
+        </li>
+      </ul>
+    </div>
+
+    <form class="form" id="form">
+      <div class="form-group">
+        <label for="login">Login</label>
+        <input type="text" class="form-control" name="login" id="login" placeholder="Enter login">
+      </div>
+      <div class="form-group">
+        <label for="password">Password</label>
+        <input type="password" class="form-control" name="password" id="password"
+               placeholder="Password">
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+  </div>
+  <div class="container">
+    <div class="panel panel-danger">
+      <div class="panel-heading">Данные, которые пришли с сервера:</div>
+      <!-- Контейнер для вывода результата (id = "result") -->
+      <div class="panel-body" id="result"></div>
+    </div>
+    <!-- форма, данные которой будем отправлять на сервер по технологии AJAX (id="message") -->
+    <form id="message">
+      <div class="form-group">
+        <label for="name">Имя:</label>
+        <input type="text" class="form-control" name="name" id="name">
+      </div>
+      <div class="form-group">
+        <label for="message">Сообщение:</label>
+        <textarea class="form-control" rows="3" name="message"></textarea>
+      </div>
+      <button id="send-message" class="btn btn-primary">Отправить сообщение</button>
+    </form>
+  </div>
+
+
+  <script src="./js/bundle.js"></script>
+  <script src="./js/app.js"></script>
+</body>
+</html>

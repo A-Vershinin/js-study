@@ -1,0 +1,8 @@
+{
+  "players": [
+    {"lastname": "Вася", "firstname": "Пупкин", "city": "Васюки", "age": 30},
+    {"lastname": "Коля", "firstname": "Петров", "city": "Москва", "age": 27},
+    {"lastname": "Женя", "firstname": "Ивано", "city": "Киев", "age": 22},
+    {"lastname": "Миша", "firstname": "Сидоров", "city": "Минск", "age": 25}
+  ]
+}

@@ -9,7 +9,7 @@ module.exports = [
   "./gulp/tasks/css.bundle.js",
   "./gulp/tasks/js.bundle.js",
   "./gulp/tasks/images.js",
-  "./gulp/tasks/fonts.bundle.js",
+  "./gulp/tasks/fonts.js",
   "./gulp/tasks/js.lint.js",
   "./gulp/tasks/styles.lint.js",
 ];
