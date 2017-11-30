@@ -37,7 +37,8 @@ function customFunctionTask1() {
     // функция для запроса данных
     function response(url, fn) {
       const xhr = new XMLHttpRequest();
-      xhr.open("GET", url, true);
+      xhr.open("GET", url + (new Date().getTime()), true);
+      xhr.responseType= "json";
       xhr.addEventListener("readystatechange", function() {
         if (xhr.readyState !== 4) {
           return;
@@ -56,7 +57,7 @@ function customFunctionTask1() {
     function request(data, url, fn) {
       const xhr = new XMLHttpRequest();
       xhr.open("POST", url, true);
-
+      xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
       xhr.addEventListener("readystatechange", function() {
         if (xhr.readyState !== 4) {
           return;

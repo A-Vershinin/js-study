@@ -6,7 +6,8 @@
 // import task5 from "./57_5";
 // import task6 from "./57_6";
 // import task7 from "./57_7";
-import task8 from "./57_8";
+// import task8 from "./57_8";
+import task9 from "./57_9";
 
 
 // Описание всех тасков внутри
@@ -20,8 +21,8 @@ const mod57 = {
   // task5,
   // task6,
   // task7,
-  task8,
-  // task9,
+  // task8,
+  task9,
   // task10,
   // task11,
   // task12,

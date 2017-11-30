@@ -11,7 +11,7 @@ function customFunctionTask1() {
     const message = document.getElementById("message");
     message.addEventListener("submit", function (e) {
       const formData = new FormData(message);
-      // xhrSend(formData);
+      xhrSend(formData);
       // jquerySend(formData);
       e.preventDefault();
     });
@@ -20,7 +20,8 @@ function customFunctionTask1() {
     // запрос нативно
     function xhrSend (formData) {
       const xhr = new XMLHttpRequest();
-      xhr.open("POST", "mail.php");
+      xhr.open("POST", "mail.php" + (new Date().getTime()));
+      xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
       xhr.addEventListener("readystatechange", function () {
         if (this.readyState == 4 && this.status == 200) {
           const data = JSON.parse(this.responseText);
