@@ -3,6 +3,7 @@
 // import task2 from "./64_2";
 // import task3 from "./64_3";
 // import task4 from "./64_4";
+import task5 from "./64_5";
 
 
 
@@ -10,11 +11,11 @@
 // Задачи на применение ООП при работе с DOM
 
 const mod64 = {
-  task1,
+  // task1,
   // task2,
   // task3,
   // task4,
-  // task5,
+  task5,
   // task6,
   // task7,
   // task8,

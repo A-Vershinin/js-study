@@ -10,11 +10,11 @@
 // import mod38 from "./modules/38_mod/38_mod";
 // import mod50 from "./modules/50_mod/50_mod";
 // import mod51 from "./modules/51_mod/51_mod";
-import mod57 from "./modules/57_mod/57_mod";
+// import mod57 from "./modules/57_mod/57_mod";
 // import mod60 from "./modules/60_mod/60_mod";
 // import mod62 from "./modules/62_mod/62_mod";
 // import mod63 from "./modules/63_mod/63_mod";
-// import mod64 from "./modules/64_mod/64_mod";
+import mod64 from "./modules/64_mod/64_mod";
 
 
 // console.log(mod28);
@@ -24,11 +24,11 @@ import mod57 from "./modules/57_mod/57_mod";
 // mod57.task2();
 // mod57.task3();
 // mod57.task4();
-// mod57.task5();
+mod64.task5();
 // mod57.task6();
 // mod57.task7();
 // mod57.task8();
-mod57.task9();
+// mod57.task9();
 // mod38.task10();
 // mod38.task11();
 // mod38.task12();
