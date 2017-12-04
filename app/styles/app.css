@@ -448,3 +448,13 @@ body {
   width: 400px;
   height: 300px;
 }
+.movie {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.movie img {
+  flex: 1 100px;
+  margin: 5px;
+}
+
